@@ -1,6 +1,6 @@
 # Great Readings
 
-This document consists of great books or articles on [Field].
+This document consists of great books or articles on Classics.
 Some are here because there is a course covering the same material;
 some are just great books that you should read at some point in your career.
 
