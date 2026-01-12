@@ -32,8 +32,6 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
 
 # Communities
 
-## Online Communities for Classics
-
 - Forums:
   - [Textkit Forums](https://www.textkit.com/greek-latin-forum/)
   - [Latin Discussion](https://www.reddit.com/r/latin/comments/1e2x1b/latin_discussion/)
