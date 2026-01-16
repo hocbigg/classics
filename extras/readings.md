@@ -1,4 +1,4 @@
-# Great Readings
+# Extra Reading
 
 This document consists of great books or articles on Classics.
 Some are here because there is a course covering the same material;
