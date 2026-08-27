@@ -2,8 +2,6 @@
 
 A curated directory of full-length university lecture series, high-production open courses, and specialized video seminars for exploring Classical Studies in depth.
 
----
-
 ## Ancient History & Mediterranean Civilizations
 
 - [Introduction to Ancient Greek History (Open Yale Courses / Yale University / Donald Kagan)](https://oyc.yale.edu/classics/clcv-205)

@@ -2,8 +2,6 @@
 
 A curated bibliography of field-defining monographs, seminal essays, and paradigm-shifting studies in Classical Studies. These works illustrate how classical scholars discover insights, formulate interpretive frameworks, and challenge disciplinary dogma.
 
----
-
 ## Philological Paradigms, Orality & Textual Transmission
 
 | Title | Author(s) | Type | Why It's Worth Reading |

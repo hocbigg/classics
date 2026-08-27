@@ -4,8 +4,6 @@ A curated directory of hands-on, step-by-step guides, open templates, and practi
 
 > *What I cannot create, I do not understand — Richard Feynman.*
 
----
-
 ## Digital Philology & Critical Editions
 
 - [Classical Text Editor: Software Walkthrough and Tutorial - Alex Poulos](https://alexpoulos.com/2014/06/12/cte-tutorial)
