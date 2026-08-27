@@ -1,39 +1,33 @@
-# Extra Courses
+# Great Courses
 
-This is a list of high-quality courses that, for one reason or another, didn't make it into the curriculum.
-The most common reasons are that the course isn't available often enough,
-or that there was an alternative that fit better into the curriculum.
+A curated directory of full-length university lecture series, high-production open courses, and specialized video seminars for exploring Classical Studies in depth.
 
-## Language & Literature
+---
 
-| Courses | Duration | Effort |
-| :-- | :--: | :--: |
-| [Greek 101: Learning an Ancient Language](https://www.thegreatcoursesplus.com/greek-101-learning-an-ancient-language) | 12 lectures | 2-3 hours/lecture |
-| [Latin 101: Learning a Classical Language](https://www.thegreatcoursesplus.com/latin-101-learning-a-classical-language) | 12 lectures | 2-3 hours/lecture |
-| [The Other Side of History: Daily Life in the Ancient World](https://www.thegreatcoursesplus.com/the-other-side-of-history-daily-life-in-the-ancient-world) | 36 lectures | 2-3 hours/lecture |
-| [Masters of Greek Thought: Plato, Socrates, and Aristotle](https://www.thegreatcoursesplus.com/masters-of-greek-thought-plato-socrates-and-aristotle) | 36 lectures | 2-3 hours/lecture |
+## Ancient History & Mediterranean Civilizations
 
-## History & Archaeology
+- [Introduction to Ancient Greek History (Open Yale Courses / Yale University / Donald Kagan)](https://oyc.yale.edu/classics/clcv-205)
+- [The Ancient Greeks (Coursera / Wesleyan University / Andrew Szegedy-Maszak)](https://www.coursera.org/learn/ancient-greeks)
+- [The Ancient World: Rome (MIT OpenCourseWare / MIT / Will Broadhead)](https://ocw.mit.edu/courses/21h-132-the-ancient-world-rome-spring-2017/)
+- [The Early Middle Ages, 284–1000: Transformation of the Roman World (Open Yale Courses / Yale University / Paul Freedman)](https://oyc.yale.edu/history/hist-210)
 
-| Courses | Duration | Effort |
-| :-- | :--: | :--: |
-| [Famous Romans: Power, Love, and Death in the Ancient City](https://www.thegreatcoursesplus.com/famous-romans-power-love-and-death-in-the-ancient-city) | 12 lectures | 2-3 hours/lecture |
-| [The Roman Empire: In the First Century](https://www.pbs.org/empires/romans/) (PBS series) | 4 episodes | 1 hour/episode |
-| [Alexander the Great and the Macedonian Empire](https://www.thegreatcoursesplus.com/alexander-the-great-and-the-macedonian-empire) | 24 lectures | 2-3 hours/lecture |
-| [The Early Middle Ages, 284–1000](https://oyc.yale.edu/history/hist-210) (Yale Open Courses) | 24 lectures | 1 hour/lecture |
+## Archaeology, Architecture & Material Culture
 
-## Philosophy & Mythology
+- [Roman Architecture (Open Yale Courses / Yale University / Diana E. E. Kleiner)](https://oyc.yale.edu/history-of-art/hsar-252)
+- [Roman Art and Archaeology (Coursera / University of Arizona / David Soren)](https://www.coursera.org/learn/roman-art-archaeology)
+- [The Arch of Titus: Rome and the Menorah (Coursera / Yeshiva University / Steven Fine)](https://www.coursera.org/learn/arch-of-titus)
 
-| Courses | Duration | Effort |
-| :-- | :--: | :--: |
-| [The Story of the Bible](https://www.thegreatcoursesplus.com/the-story-of-the-bible) (contextual myths) | 24 lectures | 2-3 hours/lecture |
-| [Great Battles of the Ancient World](https://www.thegreatcoursesplus.com/great-battles-of-the-ancient-world) | 24 lectures | 2-3 hours/lecture |
-| [The Passions: Philosophy and the Intelligence of Emotions](https://www.thegreatcoursesplus.com/the-passions-philosophy-and-the-intelligence-of-emotions) | 12 lectures | 2-3 hours/lecture |
+## Mythology, Epic & Classical Literature
 
-## Online Learning - Great Courses
+- [The Ancient Greek Hero in 24 Hours (edX / HarvardX / Gregory Nagy)](https://www.edx.org/learn/literature/harvard-university-the-ancient-greek-hero)
+- [Greek and Roman Mythology (Coursera / University of Pennsylvania / Peter Struck)](https://www.coursera.org/learn/mythology)
 
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) | 4 weeks | 2 hours/week
-[Mindshift](https://www.coursera.org/learn/mindshift) | 4 weeks | 2 hours/week
-[Powersearching with Google](https://www.edx.org/learn/google-power-searching/google-power-searching-with-google) | 3 weeks | 4-6 hours/week
+## Ancient Religion, Philosophy & Near Eastern Context
+
+- [Introduction to New Testament History and Literature (Open Yale Courses / Yale University / Dale B. Martin)](https://oyc.yale.edu/religious-studies/rlst-152)
+- [Introduction to the Old Testament / Hebrew Bible in its Ancient Mediterranean Context (Open Yale Courses / Yale University / Christine Hayes)](https://oyc.yale.edu/religious-studies/rlst-145)
+
+## Digital Classics & Specialized Research Seminars
+
+- [Sunoikisis Digital Classics: Collaborative Seminars & Workshops (SunoikisisDC / Leipzig & ICS London / Monica Berti & Gabriel Bodard)](https://sunoikisisdc.github.io/)
+- [Center for Hellenic Studies Open Research Seminars & Lectures (Harvard University / CHS)](https://chs.harvard.edu/)

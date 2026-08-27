@@ -1,75 +1,73 @@
 # Advanced Topics
 
-- [Religion, Myth, and Society](#religion-myth-and-society)
-- [Philosophy & Science](#philosophy--science)
-- [Material Culture & Evidence](#material-culture--evidence)
-- [Methods of Classical Scholarship](#methods-of-classical-scholarship)
-- [Late Antiquity & Transformation](#late-antiquity--transformation)
-- [Reception of Classics](#reception-of-classics)
-- [Final Projects](#final-projects)
+- [Classical Philology, Textual Criticism & Papyrology](#classical-philology-textual-criticism--papyrology)
+- [Ancient Philosophy, Science & Intellectual History](#ancient-philosophy-science--intellectual-history)
+- [Advanced Classical Archaeology, Epigraphy & Material Culture](#advanced-classical-archaeology-epigraphy--material-culture)
+- [Late Antiquity, Early Christianity & Byzantine Transitions](#late-antiquity-early-christianity--byzantine-transitions)
+- [Classical Reception, Gender & Critical Theory](#classical-reception-gender--critical-theory)
+- [Advanced Research Methodologies & Capstone Project](#advanced-research-methodologies--capstone-project)
 
-The remaining sections are deeper or more specialized. You do not need to study all of them. Pick according to your interests after you have finished (or are very far along in) the Core:
+The Advanced Topics curriculum is designed for students who have completed the core requirements in Greco-Roman history, material culture, mythology, and intermediate Latin or Ancient Greek. Rather than attempting to complete every track, select 1–3 specializations aligned with your research trajectory and intellectual interests:
 
-- V. Religion, Myth, and Society: Good if you are drawn to ancient beliefs, rituals, social structures, or gender roles.
-- VI. Philosophy & Science: Choose this track if you are especially interested in ancient thought, logic, ethics, or the history of science/medicine.
-- VII. Material Culture & Evidence: Ideal if you love archaeology, art, architecture, visual culture, or physical evidence (coins, inscriptions, ruins).
-- VIII. Methods of Classical Scholarship: For those who want to understand how classicists read, edit, and interpret texts at a professional level.
-- IX. Late Antiquity & Transformation: If you are curious about the transition from classical antiquity to the early medieval/Christian world.
-- X. Reception of Classics: Perfect if you enjoy seeing how ancient ideas, stories, and images have been reused in later literature, art, film, and modern culture.
+- Classical Philology, Textual Criticism & Papyrology: Investigates how ancient texts were copied, preserved, reconstructed, and commented upon from papyrus fragments to printed editions.
+- Ancient Philosophy, Science & Intellectual History: Explores Greco-Roman metaphysics, epistemology, ethics, natural philosophy, and medicine from the Presocratics to the Imperial period.
+- Advanced Classical Archaeology, Epigraphy & Material Culture: Focuses on non-literary primary evidence through stratigraphy, landscape archaeology, numismatics, epigraphic culture, and spatial GIS.
+- Late Antiquity, Early Christianity & Byzantine Transitions: Traces the transformation of the Roman Mediterranean into early medieval, Christian, and Byzantine political and religious systems.
+- Classical Reception, Gender & Critical Theory: Analyzes the post-antique reuse of classical antiquity, gender and sexuality in the ancient world, and critical historiography.
+- Advanced Research Methodologies & Capstone Project: Equips learners with specialized digital databases, critical apparatus analysis, and methods for writing an original capstone thesis.
 
-## Religion, Myth, and Society
+## Classical Philology, Textual Criticism & Papyrology
 
-| Subject | Resource |
-| --- | --- |
-| Greek & Roman Religion | Oxford Handbook of Greek Religion  |
-| Mythology | [Gantz, *Early Greek Myth*](https://archive.org/details/earlygreekmythgu0001gant) |
-| Daily Life & Slavery | Pomeroy - Goddesses, Whores, Wives and Slaves |
+| Topic | Why Study | Resources |
+| --- | --- | --- |
+| Textual Criticism & Editorial Technique | Learn to read an apparatus criticus, identify scribal errors, evaluate stemmata codicum, and make principled conjectural emendations when editing ancient texts. | - M. L. West, *Textual Criticism and Editorial Technique Applicable to Greek and Latin Texts* (Teubner/De Gruyter)<br>- Paul Maas, *Textual Criticism* (Oxford University Press)<br>- E. J. Kenney, *The Classical Text: Aspects of Editing in the Western Tradition* (University of California Press) |
+| Manuscript Transmission & Paleography | Trace the survival of classical literature through late antique scriptoria, Carolingian revivals, and Byzantine monastic collections. | - L. D. Reynolds and N. G. Wilson, *Scribes and Scholars: A Guide to the Transmission of Greek and Latin Literature* (4th ed., Oxford University Press)<br>- Bernhard Bischoff, *Latin Palaeography: Antiquity and the Middle Ages* (Cambridge University Press)<br>- B. L. Ullman, *Ancient Writing and Its Influence* (University of Toronto Press) |
+| Documentary & Literary Papyrology | Decipher, date, and edit Greek and Latin papyri, understanding the administrative, legal, and daily documentation of Greco-Roman Egypt. | - R. S. Bagnall (ed.), *The Oxford Handbook of Papyrology* (Oxford University Press)<br>- P. W. Pestman, *The New Papyrological Primer* (Brill)<br>- [Papyri.info Database & Papyrological Navigator](https://papyri.info/) |
+| Ancient Scholarship & Commentary Traditions | Understand how ancient and medieval grammarians read classical authors by analyzing marginal scholia, lexica, and ancient literary treatises. | - Eleanor Dickey, *Ancient Greek Scholarship: A Guide to Finding, Reading, and Understanding Scholia, Commentaries, Lexica, and Grammars* (Oxford University Press)<br>- Eleanor Dickey, *Latin Scholarship and Language: An Introduction* (Oxford University Press)<br>- René Nünlist, *The Ancient Critic at Work: Terms and Concepts of Literary Criticism in Greek Scholia* (Cambridge University Press) |
+| Classical Metrics & Prosody | Master quantitative poetic structures across Greek and Latin verse, including dactylic hexameter, elegiac distichs, lyric strophes, and comic trimeters. | - M. L. West, *Greek Metre* (Oxford University Press)<br>- D. S. Raven, *Latin Metre: An Introduction* (Faber & Faber)<br>- L. P. E. Parker, *The Songs of Aristophanes* (Oxford University Press) |
 
-## Philosophy & Science
+## Ancient Philosophy, Science & Intellectual History
 
-| Area | Resource |
-| --- | --- |
-| Presocratics → Plato | [Plato, Cooper edition](https://archive.org/search?query=plato+complete+works+cooper) (search for "Plato: Complete Works" edited by John M. Cooper) |
-| Aristotle | Aristotle, Barnes Companion (see "The Cambridge Companion to Aristotle" via open previews or search Archive.org) |
-| Hellenistic Schools | Long, *Hellenistic Philosophy* |
-| Medicine & Science | [Hippocrates & Galen (Loeb, Archive.org)](https://archive.org/search?query=loeb+hippocrates+OR+galen) (Loeb volumes) |
+| Topic | Why Study | Resources |
+| --- | --- | --- |
+| Presocratic Natural Philosophy | Analyze the foundational fragments of early Greek thought, examining Milesian cosmology, Eleatic ontology, and ancient atomism. | - G. S. Kirk, J. E. Raven, and M. Schofield, *The Presocratic Philosophers* (Cambridge University Press)<br>- Jonathan Barnes, *The Presocratic Philosophers* (Routledge)<br>- Patricia Curd and Daniel W. Graham (eds.), *The Oxford Handbook of Presocratic Philosophy* (Oxford University Press) |
+| Platonic Epistemology & Dialectic | Investigate Socratic cross-examination, the theory of Forms, the immortality of the soul, and political philosophy across Plato's dialogue corpus. | - John M. Cooper (ed.), *Plato: Complete Works* (Hackett)<br>- Gregory Vlastos, *Socrates: Ironist and Moral Philosopher* (Cambridge University Press)<br>- Gail Fine (ed.), *The Oxford Handbook of Plato* (Oxford University Press) |
+| Aristotelian Metaphysics & Logic | Examine the Organon, Physics, Metaphysics, and Nicomachean Ethics to understand Aristotle's systematic approach to nature, logic, and morality. | - Jonathan Barnes (ed.), *The Complete Works of Aristotle: The Revised Oxford Translation* (2 vols., Princeton University Press)<br>- Jonathan Barnes (ed.), *The Cambridge Companion to Aristotle* (Cambridge University Press)<br>- Christopher Shields, *Aristotle* (Routledge) |
+| Hellenistic & Roman Philosophy | Study Stoic physics and ethics, Epicurean atomism and therapy, and Academic and Pyrrhonian skepticism during the Hellenistic and Imperial eras. | - A. A. Long and D. N. Sedley, *The Hellenistic Philosophers* (2 vols., Cambridge University Press)<br>- Brad Inwood (ed.), *The Cambridge Companion to the Stoics* (Cambridge University Press)<br>- James Warren (ed.), *The Cambridge Companion to Epicureanism* (Cambridge University Press) |
+| Ancient Medicine & Natural Science | Trace the evolution of empirical anatomy, pharmacology, humoral physiology, and cosmology through Hippocratic, Galenic, and Ptolemaic texts. | - Vivian Nutton, *Ancient Medicine* (Routledge)<br>- G. E. R. Lloyd, *Early Greek Science: Thales to Aristotle* (Norton)<br>- P. N. Singer (ed.), *Galen: Selected Works* (Oxford World's Classics) |
 
-## Material Culture & Evidence
+## Advanced Classical Archaeology, Epigraphy & Material Culture
 
-| Area | Resource |
-| --- | --- |
-| Archaeology | Biers, *Archaeology of Greece* |
-| Art & Architecture |  |
-| Coins & Inscriptions | Sandys, *Latin Epigraphy* (search Archive.org for open editions) |
+| Topic | Why Study | Resources |
+| --- | --- | --- |
+| Archaeological Theory & Landscape Archaeology | Explore how Mediterranean field survey, stratigraphy, and pottery seriation reconstruct regional demography and agrarian economies. | - Ian Morris, *Archaeology as Cultural History: Words and Things in Iron Age Greece* (Blackwell)<br>- Susan E. Alcock and John F. Cherry (eds.), *Side-by-Side Survey: Comparative Regional Studies in the Mediterranean World* (Oxbow Books)<br>- Kevin Greene and Antony Moore, *Archaeology: An Introduction* (Routledge) |
+| Roman Urbanism & Domestic Space | Investigate the architectural syntax, public amenities, and domestic wall painting of Rome, Pompeii, and Ostia Antica. | - Filippo Coarelli, *Rome and Environs: An Archaeological Guide* (University of California Press)<br>- Andrew Wallace-Hadrill, *Houses and Society in Pompeii and Herculaneum* (Princeton University Press)<br>- Ray Laurence, *The Roads of Roman Italy: Mobility and Cultural Change* (Routledge) |
+| Greek & Roman Numismatics | Utilize coin hoards, mint marks, and imperial iconographies to analyze monetary circulation, state finance, and political propaganda. | - Christopher Howgego, *Ancient History from Coins* (Routledge)<br>- Andrew Burnett, *Coinage in the Roman World* (Seaby)<br>- William E. Metcalf (ed.), *The Oxford Handbook of Greek and Roman Coinage* (Oxford University Press) |
+| Epigraphy & Epigraphic Culture | Learn to read, transcribe, and contextualize stone and bronze inscriptions, assessing how public texts established civic and religious norms. | - John Bodel (ed.), *Epigraphic Evidence: Ancient History from Inscriptions* (Routledge)<br>- Alison E. Cooley, *The Cambridge Manual of Latin Epigraphy* (Cambridge University Press)<br>- [Searchable Greek Inscriptions (Packard Humanities Institute)](https://inscriptions.packhum.org/)<br>- [Epigraphik-Datenbank Clauss / Slaby (EDCS)](https://www.manfredclauss.de/) |
+| Digital Classical Archaeology & Spatial GIS | Apply Geographic Information Systems (GIS), linked open data, and spatial gazetteers to ancient topographical and material datasets. | - [Pleiades: Gazetteer of Ancient Places](https://pleiades.stoa.org/)<br>- [Digital Atlas of the Roman Empire (DARE)](https://imperium.ahlfeldt.se/)<br>- Gabriel Bodard and Matteo Romanello (eds.), *Digital Classics Outside the Echo-Chamber* (Ubiquity Press) |
 
-## Methods of Classical Scholarship
+## Late Antiquity, Early Christianity & Byzantine Transitions
 
-| Area | Resource |
-| --- | --- |
-| Textual criticism | West, *Textual Criticism and Editorial Technique* (search academic previews or Archive.org) |
-| Manuscripts & transmission | [Reynolds & Wilson, *Scribes and Scholars*](https://archive.org/search?query=scribes+and+scholars) |
-| Philology | [Dickey, *Ancient Greek Scholarship* (open PDF)](https://global.oup.com/academic/product/ancient-greek-scholarship-9780199286157?cc=us&lang=en&) (preview; full via institutional access) |
+| Topic | Why Study | Resources |
+| --- | --- | --- |
+| Transformation of the Roman Mediterranean | Examine the military, administrative, and economic reconfiguration of the Mediterranean world from the Crisis of the Third Century to the rise of Islam. | - Peter Brown, *The World of Late Antiquity: AD 150–750* (Thames & Hudson)<br>- Averil Cameron, *The Mediterranean World in Late Antiquity: AD 395–700* (2nd ed., Routledge)<br>- Bryan Ward-Perkins, *The Fall of Rome and the End of Civilization* (Oxford University Press) |
+| Patristics & Late Antique Christian Literature | Analyze the theological, polemical, and autobiographical works of early church figures responding to pagan philosophy and imperial politics. | - Augustine, *Confessions* (ed. and comm. James J. O'Donnell, 3 vols., Oxford University Press)<br>- Peter Brown, *Augustine of Hippo: A Biography* (University of California Press)<br>- Susanna Elm, *Sons of Hellenism, Fathers of the Church: Emperor Julian, Gregory of Nazianzus, and the Vision of Rome* (University of California Press) |
+| Neoplatonism & Late Pagan Thought | Study the metaphysical systems and theurgic practices of Plotinus, Porphyry, and Proclus during the intellectual transitions of Late Antiquity. | - Plotinus, *The Enneads* (trans. Lloyd P. Gerson, Cambridge University Press)<br>- Lloyd P. Gerson (ed.), *The Cambridge Companion to Plotinus* (Cambridge University Press)<br>- Polymnia Athanassiadi and Michael Frede (eds.), *Pagan Monotheism in Late Antiquity* (Oxford University Press) |
+| The Age of Justinian & Early Byzantium | Investigate Roman legal codification, the building program of Constantinople, and institutional shifts in the 6th-century Eastern Roman state. | - Michael Maas (ed.), *The Cambridge Companion to the Age of Justinian* (Cambridge University Press)<br>- Anthony Kaldellis, *The Byzantine Republic: People and Power in New Rome* (Harvard University Press)<br>- Procopius, *The Secret History with Related Texts* (ed. and trans. Anthony Kaldellis, Hackett) |
 
-## Late Antiquity & Transformation
+## Classical Reception, Gender & Critical Theory
 
-| Area | Resource |
-| --- | --- |
-| Christianity & Empire | Cameron, *Mediterranean World in Late Antiquity* |
-| Augustine | *Confessions* (Perseus or <http://www.newadvent.org/fathers/1101.htm>) |
-| Neoplatonism | Plotinus (Perseus or open translations on Archive.org) |
+| Topic | Why Study | Resources |
+| --- | --- | --- |
+| Classical Reception & Performance Studies | Explore how classical literature, mythology, and political ideals have been repurposed in modern literature, theater, cinema, and political discourse. | - Lorna Hardwick and Christopher Stray (eds.), *A Companion to Classical Receptions* (Blackwell)<br>- Charles Martindale, *Redeeming the Text: Latin Poetry and the Hermeneutics of Reception* (Cambridge University Press)<br>- Edith Hall and Stephe Harrop (eds.), *Theorising Performance: Greek Drama, Cultural History and Critical Practice* (Duckworth) |
+| Gender, Sexuality & the Ancient Body | Apply feminist and queer theory to ancient literary and archaeological sources to analyze patriarchal institutions, female agency, and erotic norms. | - Sarah B. Pomeroy, *Goddesses, Whores, Wives, and Slaves: Women in Classical Antiquity* (Schocken)<br>- David M. Halperin, John J. Winkler, and Froma I. Zeitlin (eds.), *Before Sexuality: The Construction of Erotic Experience in the Ancient Greek World* (Princeton University Press)<br>- Marilyn B. Skinner, *Sexuality in Greek and Roman Culture* (2nd ed., Wiley-Blackwell) |
+| Ethnicity, Slavery & Subaltern Studies | Interrogate ancient ethnographic classifications of the barbarian, mechanisms of chattel slavery, and imperial power structures. | - Benjamin Isaac, *The Invention of Racism in Classical Antiquity* (Princeton University Press)<br>- Denise Eileen McCoskey, *Race: Antiquity and Its Legacy* (Bloomsbury / Oxford University Press)<br>- Keith Bradley and Paul Cartledge (eds.), *The Cambridge World History of Slavery: Volume 1, The Ancient Mediterranean World* (Cambridge University Press) |
+| History of Classical Scholarship & Decolonial Critique | Examine how 19th-century Altertumswissenschaft and colonial educational policies constructed classical canons, and engage with contemporary critiques. | - Christopher Stray, *Classics Transformed: Schools, Universities, and Society in England, 1830–1960* (Oxford University Press)<br>- Katherine Harloe, *Winckelmann and the Invention of Antiquity: History and Rhetoric in the European Enlightenment* (Oxford University Press)<br>- Constanze Güthenke, *Feeling and Classical Philology: Knowing Antiquity in German Scholarship, 1770–1920* (Cambridge University Press) |
 
-## Reception of Classics
+## Advanced Research Methodologies & Capstone Project
 
-| Area | Resource |
-| --- | --- |
-| Classical reception | Hardwick & Stray, *Companion to Classical Receptions* (search Oxford Academic previews) |
-
-## Final Projects
-
-| Subject | Why study? | Book | Videos |
-| --- | --- | --- | --- |
-| Capstone Project | Produce a research thesis, annotated translation, or multimedia project using primary sources and scholarly methods. | [*The Chicago Manual of Style*](https://archive.org/details/chicagomanualofs16edunse) (for formatting); [*Writing for Classicists*](https://www.amazon.com/Women-Late-Antiquity-Pagan-Christian/dp/0198721668) by Gillian Clark | [Research Methods in Classics (MIT OCW)](https://ocw.mit.edu/courses/history/) (use general humanities research guides) |
-
-> Note: Free primary texts are available via:
-> - [Perseus Digital Library](http://www.perseus.tufts.edu/hopper/)
-> - [Open Greek & Latin Project](https://opengreekandlatin.org/)
+| Topic | Why Study | Resources |
+| --- | --- | --- |
+| Advanced Digital Classics & Lexicographical Tools | Master specialized corpora, full-text search engines, and linguistic analyzers used in philological research. | - [Thesaurus Linguae Graecae (TLG: A Digital Library of Greek Literature)](http://stephanus.tlg.uci.edu/)<br>- [Packard Humanities Institute (PHI) Classical Latin Texts](https://latin.packhum.org/)<br>- [Dickinson College Commentaries (DCC)](https://dcc.dickinson.edu/)<br>- [Trismegistos: Interdisciplinary Portal of Papyrological and Epigraphical Resources](https://www.trismegistos.org/) |
+| Scholarly Citation, Historiographical Synthesis & Critical Apparatus | Learn to construct an original academic apparatus, cite classical texts according to international standards, and synthesize primary and secondary evidence. | - Simon Hornblower, Antony Spawforth, and Esther Eidinow (eds.), *The Oxford Classical Dictionary* (4th ed., Oxford University Press)<br>- *The Chicago Manual of Style* (Classical Citation Systems: Author-Date and Notes-Bibliography)<br>- L'Année philologique (Database of Classical Bibliography, Brepols/SIBC) |
+| Capstone Thesis Conception & Execution | Plan, research, draft, and defend an advanced research thesis, annotated critical translation, or digital humanities project displaying disciplinary mastery. | - Wayne C. Booth, Gregory G. Colomb, and Joseph M. Williams, *The Craft of Research* (University of Chicago Press)<br>- [Perseus Digital Library](http://www.perseus.tufts.edu/hopper/)<br>- [Open Greek and Latin Project](https://opengreekandlatin.org/) |

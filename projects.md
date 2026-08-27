@@ -1,68 +1,52 @@
 # Projects
 
-This page is a curated collection of well-written, step-by-step guides for learning Classics through hands-on, project-based practice.
+A curated directory of hands-on, step-by-step guides, open templates, and practical workflows for learning Classics through artifact construction and methodological practice.
 
 > *What I cannot create, I do not understand — Richard Feynman.*
 
-These projects are meant to support learning throughout the curriculum, not only at the end.  
-By building, writing, creating, or reconstructing real artifacts in the field, learners develop practical understanding alongside theoretical study.
+---
 
-## Tutorials
+## Digital Philology & Critical Editions
 
-* [Edition](#edit-your-own-edition)
-* [Translation](#translate-your-own-text)
-* [Commentary](#write-your-own-commentary)
-* [Lexicon](#compile-your-own-lexicon)
-* [Grammar](#compose-your-own-grammar)
-* [Reconstruction](#reconstruct-your-own-text)
-* [Inscription](#transcribe-your-own-inscription)
-* [Critical Essay](#write-your-own-critical-essay)
-* [Literary Analysis](#produce-your-own-literary-analysis)
-* [Historical Narrative](#construct-your-own-historical-narrative)
+- [Classical Text Editor: Software Walkthrough and Tutorial - Alex Poulos](https://alexpoulos.com/2014/06/12/cte-tutorial)
+- [Software for Producing a Critical Edition: Classical Text Editor, LaTeX, and TEI - Andrew Dunning](https://andrewdunning.ca/critical-edition-software)
+- [Introduction to Encoding Texts in TEI XML - Programming Historian](https://programminghistorian.org/en/lessons/introduction-to-tei-1)
+- [TEI by Example: Step-by-Step Text Encoding Tutorials for Humanities Texts - University of Edinburgh](https://teibyexample.org/)
+- [The Words on the Page: Thoughts on Philology, Old and New (Stemmatics & Archetype Reconstruction) - M. J. Driscoll](http://www.driscoll.dk/docs/words.html)
 
-### Edit your own edition
+## Commentary, Lexicography & Syntactic Annotation
 
-* [CTE Tutorial](https://alexpoulos.com/2014/06/12/cte-tutorial) (Software walkthrough)  
-* [Software for producing a critical edition: Classical Text Editor, LaTeX, and TEI](https://andrewdunning.ca/critical-edition-software) (Tool guide)
+- [Classical Commentary DIY: A Step-by-Step Guide to Making Student Editions - Dickinson College Commentaries](https://blogs.dickinson.edu/dcc/2013/01/21/classical-commentary-diy/)
+- [Sections of a Commentary: Structure, Method, and Line-by-Line Analysis - Harvard ClassicsWrites](https://classicswrites.hsites.harvard.edu/sections-commentary)
+- [Treebanking with Arethusa: Dependency Syntax Annotation for Ancient Greek and Latin - Perseids Project](https://www.perseids.org/)
+- [Classical Language Toolkit (CLTK): Natural Language Processing and Lemmatization for Ancient Languages - CLTK Documentation](https://docs.cltk.org/)
+- [How to Create an Effective Multilingual Glossary and Lexicon - Tomedes](https://www.tomedes.com/translator-hub/make-multilingual-glossary)
 
-### Translate your own text
+## Epigraphy, Papyrology & Inscriptional Decipherment
 
-* [A straightforward guide to translating Latin Unseens](https://www.youtube.com/watch?v=A_i3iy8v5Dg) (Video tutorial)
+- [Greek and Latin Epigraphy: An Absolute Beginners' Guide to Inscriptions - Roger Pearse](https://www.roger-pearse.com/weblog/2014/04/25/greek-and-latin-epigraphy-an-absolute-beginners-guide/)
+- [Epigraphic Conventions Used in Transcriptions and Reconstructions (Leiden Conventions) - Stanford Digital Forma Urbis Romae Project](https://formaurbis.stanford.edu/docs/EpigraphConvent.html)
+- [EpiDoc Guidelines: Encoding Epigraphic and Papyrological Documents in TEI XML - EpiDoc Consortium](https://epidoc.stoa.org/)
+- [EpiDoc & EFES Practical Tutorials and Syllabus - EpiDoc / SunoikisisDC](https://github.com/EpiDoc/Tutorials/wiki)
+- [Documentary Papyrology Search, Transcription, and Curation Workflows - Papyri.info](https://papyri.info/)
 
-### Write your own commentary
+## Spatial Humanities, GIS & Material Culture
 
-* [Sections of a Commentary](https://classicswrites.hsites.harvard.edu/sections-commentary) (Structure guide)  
-* [Classical Commentary DIY](https://blogs.dickinson.edu/dcc/2013/01/21/classical-commentary-diy) (Practical creation)
+- [Georeferencing and Contributing Ancient Places - Pleiades Gazetteer of Ancient Places](https://pleiades.stoa.org/)
+- [Digital Atlas of the Roman Empire (DARE): Spatial Data Exploration - University of Gothenburg](https://imperium.ahlfeldt.se/)
+- [3D Imaging and Photogrammetry Workflow for Cultural Heritage Objects - SunoikisisDC](https://sunoikisisdc.github.io/)
+- [Web Mapping with Python and Leaflet for Historical Datasets - Programming Historian](https://programminghistorian.org/en/lessons/mapping-with-python-leaflet)
 
-### Compile your own lexicon
+## Close Reading, Textual Criticism & Translation Workflows
 
-* [How to Create an Effective Glossary: A Complete Guide](https://www.tomedes.com/translator-hub/make-multilingual-glossary) (Step-by-step process)
+- [Writing a Literary Commentary: Guidelines and Structural Models - University of Warwick](https://warwick.ac.uk/fac/arts/modernlanguages/intranet/undergraduate/skills/commesswriting/commentarywriting)
+- [Guidelines for Close Reading and Rhetorical Analysis in Classical Texts - Harvard ClassicsWrites](https://classicswrites.hsites.harvard.edu/)
+- [Digital Methods of Analysing and Reconstructing Ancient Greek and Latin Texts - Center for Hellenic Studies, Harvard University](https://classics-at.chs.harvard.edu/digital-methods-of-analysing-and-reconstructing-ancient-greek-and-latin-texts)
+- [Intermediate Translation and Grammar Verification Workflows - Dickinson College Commentaries](https://dcc.dickinson.edu/)
 
-### Compose your own grammar
+## Historiographical Synthesis & Critical Essay Writing
 
-* [Stage 1 Latin grammar resource](https://www.nationalarchives.gov.uk/latin/stage-1-latin/resources/stage-1-latin-grammar-resource) (Compilation reference)
-
-### Reconstruct your own text
-
-* [The words on the page: Thoughts on philology, old and new](http://www.driscoll.dk/docs/words.html) (Essay) — explains stemmatic method for reconstructing archetype from manuscripts  
-* [Digital Methods of Analysing and Reconstructing Ancient Greek and Latin Texts](https://classics-at.chs.harvard.edu/digital-methods-of-analysing-and-reconstructing-ancient-greek-and-latin-texts) (Guide) — outlines traditional and computational workflows for text reconstruction  
-
-### Transcribe your own inscription
-
-* [Greek and Latin Epigraphy – an absolute beginners' guide](https://www.roger-pearse.com/weblog/2014/04/25/greek-and-latin-epigraphy-an-absolute-beginners-guide) (Guide) — introduces transcription basics and conventions  
-* [Epigraphic conventions used in transcriptions and reconstructions](https://formaurbis.stanford.edu/docs/EpigraphConvent.html) (Reference) — details standard notation for transcribing and restoring inscriptions  
-
-### Write your own critical essay
-
-* [GUIDELINES FOR WRITING AN ESSAY IN THE CLASSICS DEPARTMENT](https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/d-other/Classics-full_writing_guide.pdf.coredownload.pdf) (Department guide) — provides structure, argumentation, and evidence use specific to Classics essays  
-* [SCHOOL OF HISTORY, CLASSICS AND ARCHAEOLOGY GUIDELINES FOR ESSAYS IN CLASSICS](https://edwebcontent.ed.ac.uk/sites/default/files/atoms/files/essay_guidelines_2019-20.pdf) (Guidelines) — step-by-step advice on organizing points and building evidence-based arguments  
-
-### Produce your own literary analysis
-
-* [Sections of a Commentary](https://classicswrites.hsites.harvard.edu/sections-commentary) (Guide) — models line-by-line analysis structure used in classical commentaries  
-* [Writing a Literary Commentary: Guidelines](https://warwick.ac.uk/fac/arts/modernlanguages/intranet/undergraduate/skills/commesswriting/commentarywriting) (Guidelines) — outlines process for contextualizing and analyzing passages  
-
-### Construct your own historical narrative
-
-* [Writing Ancient History: An Introduction to Classical Historiography](https://www.goodreads.com/book/show/8357947-writing-ancient-history) (Book) — discusses techniques classical historians used to construct narratives (modeling approach)  
-* [A Guide to Writing in History and Classics](https://www.usu.edu/markdamen/WritingGuide/A%20Guide%20to%20Writing%20in%20History%20and%20Classics.pdf) (Guide) — covers precise language and evidence handling for historical writing  
+- [Guidelines for Writing an Essay in Classics: Argumentation and Source Evidence - University of Canterbury](https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/d-other/Classics-full_writing_guide.pdf.coredownload.pdf)
+- [School of History, Classics and Archaeology Guidelines for Essays in Classics - University of Edinburgh](https://edwebcontent.ed.ac.uk/sites/default/files/atoms/files/essay_guidelines_2019-20.pdf)
+- [A Guide to Writing in History and Classics - Utah State University](https://www.usu.edu/markdamen/WritingGuide/A%20Guide%20to%20Writing%20in%20History%20and%20Classics.pdf)
+- [Primary Source Evaluation and Contextual Analysis in Classical Studies - Dickinson College Commentaries](https://dcc.dickinson.edu/)
