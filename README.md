@@ -3,7 +3,6 @@ title: Hocbigg - Classics
 description: Path to a free self-taught education in Classics!
 ---
 
-
 # Contents
 
 - [Summary](#summary)
@@ -33,7 +32,6 @@ Practical work is integrated through the [Projects section](projects.md) and may
 
 Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
 they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md).
-
 
 **[How to contribute](/CONTRIBUTING.html)**
 
@@ -100,7 +98,7 @@ Upon completing these core modules, you will possess the foundational knowledge 
 | Subject | Resources |
 | --- | --- |
 | What is Classics? Scope and Modern Relevance | [Mary Beard and John Henderson, *Classics: A Very Short Introduction*](https://archive.org/details/classicsveryshor00bear) |
-| Disciplinary Methods & Evidence (Historiography, Epigraphy, Papyrology, Transmission) | Simon Hornblower, Antony Spawforth, and Esther Eidinow (eds.), *The Oxford Classical Dictionary* (4th ed.); William Allan, *Classical Literature: A Very Short Introduction* |
+| Disciplinary Methods & Evidence (Historiography, Epigraphy, Papyrology, Transmission) | Simon Hornblower, Antony Spawforth, and Esther Eidinow (eds.), [*The Oxford Classical Dictionary* (4th ed.)](https://books.google.com/books?isbn=9780199545568); William Allan, [*Classical Literature: A Very Short Introduction*](https://books.google.com/books?isbn=9780199665457) |
 | Introduction to Evidence and Historical Analysis | [Open Yale Courses: Introduction to Ancient Greek History (CLCV 205, Lectures 1–2)](https://oyc.yale.edu/classics/clcv-205) |
 
 ## The Ancient Mediterranean World
@@ -112,23 +110,23 @@ Upon completing these core modules, you will possess the foundational knowledge 
 | Bronze Age & Ancient Near East Context | [Eric H. Cline, *1177 B.C.: The Year Civilization Collapsed*](https://archive.org/details/1177bcyearcivili0000clin_l1r1); Marc Van De Mieroop, *A History of the Ancient Near East* | [Open Yale Courses: RLST 145 Contextual Lectures](https://oyc.yale.edu/religious-studies/rlst-145) |
 | Ancient Greece (Bronze Age to Hellenistic Period) | [Sarah B. Pomeroy et al., *Ancient Greece: A Political, Social, and Cultural History*](https://archive.org/details/ancientgreecepol00sara); Thomas R. Martin, *Ancient Greece: From Prehistoric to Hellenistic Times* | [Open Yale Courses: Introduction to Ancient Greek History (CLCV 205 with Donald Kagan)](https://oyc.yale.edu/classics/clcv-205) |
 | Ancient Rome (Regal Period to Empire) | [Mary T. Boatwright et al., *The Romans: From Village to Empire*](https://archive.org/details/romansfromvillag0000unse) | [MIT OpenCourseWare: 21H.132 The Ancient World: Rome](https://ocw.mit.edu/courses/21h-132-the-ancient-world-rome-spring-2017/) |
-| Historical Geography & Spatial Tools | Richard J. A. Talbert (ed.), *Barrington Atlas of the Greek and Roman World* | [Digital Atlas of the Roman Empire (DARE)](https://imperium.ahlfeldt.se/); [Pleiades: Gazetteer of Ancient Places](https://pleiades.stoa.org/) |
+| Historical Geography & Spatial Tools | Richard J. A. Talbert (ed.), [*Barrington Atlas of the Greek and Roman World*](https://books.google.com/books?isbn=9780691031699) | [Digital Atlas of the Roman Empire (DARE)](https://imperium.ahlfeldt.se/); [Pleiades: Gazetteer of Ancient Places](https://pleiades.stoa.org/) |
 
 ### Material Culture & Classical Archaeology
 
 | Subject | Book | Video / Digital Resource |
 | --- | --- | --- |
-| Greek Art & Archaeology | William R. Biers, *The Archaeology of Greece: An Introduction*; Ian Morris and Barry B. Powell, *The Greeks: History, Culture, and Society* | [Perseus Digital Library: Art & Archaeology Artifact Browser](http://www.perseus.tufts.edu/hopper/) |
-| Roman Architecture, Urbanism & Monuments | Paul Zanker, *Roman Art*; Nancy H. Ramage and Andrew Ramage, *Roman Art: Romulus to Constantine* | [Open Yale Courses: Roman Architecture (HSAR 252 with Diana E. E. Kleiner)](https://oyc.yale.edu/history-of-art/hsar-252) |
-| Material Epigraphy, Numismatics & Daily Life | Beryl Rawson (ed.), *A Companion to Families in the Greek and Roman Worlds*; John Bodel (ed.), *Epigraphic Evidence: Ancient History from Inscriptions* | [Current Epigraphy and Open Digital Collections](https://pleiades.stoa.org/) |
+| Greek Art & Archaeology | William R. Biers, [*The Archaeology of Greece: An Introduction*](https://books.google.com/books?isbn=9780801482809); Ian Morris and Barry B. Powell, [*The Greeks: History, Culture, and Society*](https://books.google.com/books?isbn=9780197586891) | [Perseus Digital Library: Art & Archaeology Artifact Browser](http://www.perseus.tufts.edu/hopper/) |
+| Roman Architecture, Urbanism & Monuments | Paul Zanker, [*Roman Art*](https://books.google.com/books?isbn=9781606061015); Nancy H. Ramage and Andrew Ramage, [*Roman Art: Romulus to Constantine*](https://books.google.com/books?isbn=9780205988952) | [Open Yale Courses: Roman Architecture (HSAR 252 with Diana E. E. Kleiner)](https://oyc.yale.edu/history-of-art/hsar-252) |
+| Material Epigraphy, Numismatics & Daily Life | Beryl Rawson (ed.), [*A Companion to Families in the Greek and Roman Worlds*](https://books.google.com/books?isbn=9781405187671); John Bodel (ed.), [*Epigraphic Evidence: Ancient History from Inscriptions*](https://books.google.com/books?isbn=9780415116237) | [Current Epigraphy and Open Digital Collections](https://pleiades.stoa.org/) |
 
 ### Classical Mythology & Religion
 
 | Subject | Primary & Secondary Texts | Reference / Digital Resource |
 | --- | --- | --- |
-| Greco-Roman Mythological Canon | Mark P. O. Morford, Robert J. Lenardon, and Michael Sham, *Classical Mythology* (Oxford University Press); Robin Hard, *The Routledge Handbook of Greek Mythology* | [Perseus Digital Library: Classical Mythology and Primary Texts](http://www.perseus.tufts.edu/hopper/) |
+| Greco-Roman Mythological Canon | Mark P. O. Morford, Robert J. Lenardon, and Michael Sham, [*Classical Mythology*](https://books.google.com/books?isbn=9780190851644) (Oxford University Press); Robin Hard, [*The Routledge Handbook of Greek Mythology*](https://books.google.com/books?isbn=9780415186360) | [Perseus Digital Library: Classical Mythology and Primary Texts](http://www.perseus.tufts.edu/hopper/) |
 | Primary Mythological Sources | Hesiod, *Theogony* and *Works and Days* (trans. M. L. West); *The Homeric Hymns* (trans. Michael Crudden); Ovid, *Metamorphoses* (trans. A. D. Melville or Allen Mandelbaum) | [Theoi Greek Mythology Project / Perseus Digital Library](http://www.perseus.tufts.edu/hopper/) |
-| Ancient Greek & Roman Religion | Walter Burkert, *Greek Religion*; J. A. North, *Roman Religion* | Oxford Classical Dictionary: Articles on Cult, Ritual, and Divination |
+| Ancient Greek & Roman Religion | Walter Burkert, [*Greek Religion*](https://books.google.com/books?isbn=9780674362819); J. A. North, [*Roman Religion*](https://books.google.com/books?isbn=9780199224333) | Oxford Classical Dictionary: Articles on Cult, Ritual, and Divination |
 
 ## Languages of the Classical World
 
@@ -137,19 +135,19 @@ Upon completing these core modules, you will possess the foundational knowledge 
 | Level | Resource |
 | --- | --- |
 | Primary Textbook (Inductive / Reading Method) | [Hans H. Ørberg, *Lingua Latina per se Illustrata: Pars I: Familia Romana* and *Pars II: Roma Aeterna*](https://archive.org/search?query=lingua+latina+per+se+illustrata) |
-| Primary Textbook (Grammar-Translation Alternative) | Frederic M. Wheelock and Richard A. LaFleur, *Wheelock's Latin*; or Andrew Keller and Stephanie Russell, *Learn to Read Latin* (Yale University Press) |
-| Reference Grammar & Lexicon | J. B. Greenough et al., *Allen and Greenough's New Latin Grammar* (available via Perseus and DCC); Charlton T. Lewis and Charles Short, *A Latin Dictionary* |
-| Intermediate Readers & Student Commentaries | [Dickinson College Commentaries (Latin Texts, Core Vocabulary, and Media)](https://dcc.dickinson.edu/); Geoffrey Steadman, *College Latin Commentaries* series |
+| Primary Textbook (Grammar-Translation Alternative) | Frederic M. Wheelock and Richard A. LaFleur, [*Wheelock's Latin*](https://books.google.com/books?isbn=9780061997228); or Andrew Keller and Stephanie Russell, [*Learn to Read Latin*](https://books.google.com/books?isbn=9780300194951) (Yale University Press) |
+| Reference Grammar & Lexicon | J. B. Greenough et al., [*Allen and Greenough's New Latin Grammar*](https://books.google.com/books?isbn=9780486448060) (available via Perseus and DCC); Charlton T. Lewis and Charles Short, [*A Latin Dictionary*](https://books.google.com/books?isbn=9780198642015) |
+| Intermediate Readers & Student Commentaries | [Dickinson College Commentaries (Latin Texts, Core Vocabulary, and Media)](https://dcc.dickinson.edu/); Geoffrey Steadman, [*College Latin Commentaries*](https://geoffreysteadman.com/) series |
 | Digital Texts & Spoken Latin Audio | [The Latin Library (Repository of Classical Latin Texts)](https://www.thelatinlibrary.com/); Luke Ranieri (ScorpioMartianus Latin pronunciation tutorials) |
 
 ### Ancient Greek
 
 | Level | Resource |
 | --- | --- |
-| Primary Textbook (Reading Method) | [Maurice Balme, Gilbert Lawall, and James Morwood, *Athenaze: An Introduction to Ancient Greek* (Books I–II)](https://archive.org/search?query=athenaze); Joint Association of Classical Teachers (JACT), *Reading Greek* |
-| Primary Textbook (Systematic Grammar Method) | Donald J. Mastronarde, *Introduction to Attic Greek* (University of California Press) |
+| Primary Textbook (Reading Method) | [Maurice Balme, Gilbert Lawall, and James Morwood, *Athenaze: An Introduction to Ancient Greek* (Books I–II)](https://archive.org/search?query=athenaze); Joint Association of Classical Teachers (JACT), [*Reading Greek*](https://books.google.com/books?isbn=9780521698511) |
+| Primary Textbook (Systematic Grammar Method) | Donald J. Mastronarde, [*Introduction to Attic Greek*](https://books.google.com/books?isbn=9780520275713) (University of California Press) |
 | Grammar Tutorials & Audio Portal | [Donald J. Mastronarde, *Ancient Greek Tutorials* (AtticGreek.org)](https://atticgreek.org/) |
-| Reference Grammar & Lexicon | Herbert Weir Smyth, *Greek Grammar* (available on Perseus); H. G. Liddell and R. Scott, *An Intermediate Greek-English Lexicon* |
+| Reference Grammar & Lexicon | Herbert Weir Smyth, [*Greek Grammar*](https://books.google.com/books?isbn=9780674362505) (available on Perseus); H. G. Liddell and R. Scott, [*An Intermediate Greek-English Lexicon*](https://books.google.com/books?isbn=9780199102068) |
 | Intermediate Readers & Digital Commentaries | [Dickinson College Commentaries (Greek Texts and Vocabulary)](https://dcc.dickinson.edu/); [Perseus Digital Library (Greek Texts and Morphology Tools)](http://www.perseus.tufts.edu/hopper/) |
 
 ## Classical Literature
@@ -176,5 +174,4 @@ Upon completing these core modules, you will possess the foundational knowledge 
 # Code of conduct
 
 [Hocbigg's code of conduct](https://github.com/hocbigg/code-of-conduct).
-
 
