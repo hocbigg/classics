@@ -3,39 +3,17 @@ title: Hocbigg - Classics
 description: Path to a free self-taught education in Classics!
 ---
 
-# Contents
-
 - [Summary](#summary)
 - [Communities](#communities)
 - [Curriculum](#curriculum)
-- [Code of conduct](#code-of-conduct)
 
-# Summary
+## Summary
 
-The Classics curriculum is a complete education in Classics using online materials.
-
-## Organization
-
-This repository is organized into three main components:
-
-- **Core Curriculum** (this page): the foundational knowledge of the field;
-- **[Advanced Topics](advanced_topics.md)**: focused study in specific areas;
-- **[Projects](projects.md)**: support learning through practical application throughout the curriculum.
-
-**Process:** Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.
-
-- For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.
-- The Core Curriculum provides a shared foundation and is intended to be completed in full.
-- Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.
-
-Practical work is integrated through the [Projects section](projects.md) and may be undertaken alongside coursework.
-
-Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md).
+The Classics curriculum is a complete education in Classics using online materials. This curriculum aims to cover the history, literature, languages, and culture of ancient Greece and Rome.
 
 **[How to contribute](/CONTRIBUTING.html)**
 
-# Communities
+## Communities
 
 - Forums:
     - [Textkit Forums](https://www.textkit.com/greek-latin-forum/)
@@ -48,130 +26,118 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
     - [r/classicliterature](https://www.reddit.com/r/classicliterature/)
     - [r/ancienthistory](https://www.reddit.com/r/ancienthistory/)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/classics/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
-- Join our Discord server (for discussions around this and other curricula): 
-    
-    [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
 
-# Curriculum
+## Curriculum
 
-- [How to use this curriculum](#how-to-use-this-curriculum)
-- [Orientation to Classical Studies](#orientation-to-classical-studies)
-- [The Ancient Mediterranean World](#the-ancient-mediterranean-world)
-    - [Historical & Geographical Foundations](#historical--geographical-foundations)
-    - [Material Culture & Classical Archaeology](#material-culture--classical-archaeology)
-    - [Classical Mythology & Religion](#classical-mythology--religion)
-- [Languages of the Classical World](#languages-of-the-classical-world)
-    - [Latin](#latin)
-    - [Ancient Greek](#ancient-greek)
-- [Classical Literature](#classical-literature)
-    - [Greek Literature](#greek-literature)
-    - [Latin Literature](#latin-literature)
+### Orientation to Classical Studies
 
-## How to use this curriculum
+An introduction to the scope, evidentiary methods, and modern reception of ancient Greek and Roman civilizations.
 
-### Core
+[Classics: A Very Short Introduction (Mary Beard and John Henderson)](https://books.google.com/books?isbn=9780192853851) - An engaging primer exploring how classicists investigate the ancient world through material evidence, literature, and modern cultural reception.
 
-Classics is the interdisciplinary study of the ancient Greco-Roman world. To build a coherent foundation from absolute beginner level to advanced study, complete the core sections in the following pedagogical sequence:
+[The Classical World: An Epic History from Homer to Hadrian (Robin Lane Fox)](https://books.google.com/books?isbn=9780465024971) - A sweeping single-volume overview that synthesizes the interconnected political and cultural histories of Greece and Rome.
 
-1. Orientation to Classical Studies
-   Begin here to understand what Classics encompasses as a discipline, how classicists analyze disparate sources of evidence (literary texts, inscriptions, papyri, and material remains), and how knowledge of antiquity is constructed.
+### Ancient Greek History
 
-2. The Ancient Mediterranean World
-   Establish your contextual framework across three essential pillars:
-   - Historical & Geographical Foundations: Master the chronology from the Bronze Age through Late Antiquity and learn the geography of the Mediterranean basin.
-   - Material Culture & Classical Archaeology: Understand physical artifacts, urban landscapes, and monuments that ground ancient texts.
-   - Classical Mythology & Religion: Acquire literacy in the mythic cycles and religious rituals that inform all Greco-Roman literature, politics, and art.
+A survey of Greek political, military, and social institutions from the Bronze Age through the Classical polis and the Hellenistic kingdoms.
 
-3. Languages of the Classical World
-   Attain intermediate reading proficiency in at least one classical language (Latin or Ancient Greek).
-   - Beginners typically start with one language before adding the second.
-   - Combine inductive reading methods with systematic grammar study and reference lexicons.
-   - Transition to original texts using tiered intermediate readers and commentary-supported editions.
+[Introduction to Ancient Greek History (Open Yale Courses/Donald Kagan)](https://oyc.yale.edu/classics/clcv-205) - A comprehensive 24-lecture university course covering Greek civilization from the Mycenaean era through the fourth-century poleis.
 
-4. Classical Literature
-   Engage directly with canonical primary works. Read complete works or major selections in translation while working through key passages in the original language using commentaries.
+[Ancient Greece: A Political, Social, and Cultural History (Sarah B. Pomeroy et al.)](https://books.google.com/books?isbn=9780190686918) - The standard university textbook detailing archaic developments, classical Athenian democracy, Spartan society, and Hellenistic culture.
 
-Upon completing these core modules, you will possess the foundational knowledge of an undergraduate Classics major: chronological and geographical grounding, familiarity with material culture and mythology, intermediate competence in a classical language, and direct analytical experience with primary Greco-Roman texts.
+[Ancient Greece: From Prehistoric to Hellenistic Times (Thomas R. Martin)](https://books.google.com/books?isbn=9780300160055) - An accessible, narrative-driven introductory history designed for beginners.
 
-## Orientation to Classical Studies
+### Roman History
 
-| Subject | Resources |
-| --- | --- |
-| What is Classics? Scope and Modern Relevance | [Mary Beard and John Henderson, *Classics: A Very Short Introduction*](https://archive.org/details/classicsveryshor00bear) |
-| Disciplinary Methods & Evidence (Historiography, Epigraphy, Papyrology, Transmission) | Simon Hornblower, Antony Spawforth, and Esther Eidinow (eds.), [*The Oxford Classical Dictionary* (4th ed.)](https://books.google.com/books?isbn=9780199545568); William Allan, [*Classical Literature: A Very Short Introduction*](https://books.google.com/books?isbn=9780199665457) |
-| Introduction to Evidence and Historical Analysis | [Open Yale Courses: Introduction to Ancient Greek History (CLCV 205, Lectures 1–2)](https://oyc.yale.edu/classics/clcv-205) |
+The development of the Roman state from central Italian settlements through the Republic, the Augustan Principate, and Late Antiquity.
 
-## The Ancient Mediterranean World
+[The Ancient World: Rome (MIT OpenCourseWare/Will Broadhead)](https://ocw.mit.edu/courses/21h-132-the-ancient-world-rome-spring-2017/) - An undergraduate course providing complete lecture slides, thematic syllabi, and guided readings on Roman political and social structures.
 
-### Historical & Geographical Foundations
+[The Romans: From Village to Empire (Mary T. Boatwright et al.)](https://books.google.com/books?isbn=9780199730575) - The premier academic textbook surveying Roman history from early central Italian cultures to Constantine.
 
-| Subject | Book | Video / Digital Resource |
-| --- | --- | --- |
-| Bronze Age & Ancient Near East Context | [Eric H. Cline, *1177 B.C.: The Year Civilization Collapsed*](https://archive.org/details/1177bcyearcivili0000clin_l1r1); Marc Van De Mieroop, *A History of the Ancient Near East* | [Open Yale Courses: RLST 145 Contextual Lectures](https://oyc.yale.edu/religious-studies/rlst-145) |
-| Ancient Greece (Bronze Age to Hellenistic Period) | [Sarah B. Pomeroy et al., *Ancient Greece: A Political, Social, and Cultural History*](https://archive.org/details/ancientgreecepol00sara); Thomas R. Martin, *Ancient Greece: From Prehistoric to Hellenistic Times* | [Open Yale Courses: Introduction to Ancient Greek History (CLCV 205 with Donald Kagan)](https://oyc.yale.edu/classics/clcv-205) |
-| Ancient Rome (Regal Period to Empire) | [Mary T. Boatwright et al., *The Romans: From Village to Empire*](https://archive.org/details/romansfromvillag0000unse) | [MIT OpenCourseWare: 21H.132 The Ancient World: Rome](https://ocw.mit.edu/courses/21h-132-the-ancient-world-rome-spring-2017/) |
-| Historical Geography & Spatial Tools | Richard J. A. Talbert (ed.), [*Barrington Atlas of the Greek and Roman World*](https://books.google.com/books?isbn=9780691031699) | [Digital Atlas of the Roman Empire (DARE)](https://imperium.ahlfeldt.se/); [Pleiades: Gazetteer of Ancient Places](https://pleiades.stoa.org/) |
+[SPQR: A History of Ancient Rome (Mary Beard)](https://books.google.com/books?isbn=9780871404237) - An analytical narrative exploring Roman citizenship, political administration, and daily life using primary literary and material evidence.
 
-### Material Culture & Classical Archaeology
+### Classical Mythology and Religion
 
-| Subject | Book | Video / Digital Resource |
-| --- | --- | --- |
-| Greek Art & Archaeology | William R. Biers, [*The Archaeology of Greece: An Introduction*](https://books.google.com/books?isbn=9780801482809); Ian Morris and Barry B. Powell, [*The Greeks: History, Culture, and Society*](https://books.google.com/books?isbn=9780197586891) | [Perseus Digital Library: Art & Archaeology Artifact Browser](http://www.perseus.tufts.edu/hopper/) |
-| Roman Architecture, Urbanism & Monuments | Paul Zanker, [*Roman Art*](https://books.google.com/books?isbn=9781606061015); Nancy H. Ramage and Andrew Ramage, [*Roman Art: Romulus to Constantine*](https://books.google.com/books?isbn=9780205988952) | [Open Yale Courses: Roman Architecture (HSAR 252 with Diana E. E. Kleiner)](https://oyc.yale.edu/history-of-art/hsar-252) |
-| Material Epigraphy, Numismatics & Daily Life | Beryl Rawson (ed.), [*A Companion to Families in the Greek and Roman Worlds*](https://books.google.com/books?isbn=9781405187671); John Bodel (ed.), [*Epigraphic Evidence: Ancient History from Inscriptions*](https://books.google.com/books?isbn=9780415116237) | [Current Epigraphy and Open Digital Collections](https://pleiades.stoa.org/) |
+An examination of the pantheon, myth cycles, ritual practices, and civic religious structures of ancient Greece and Rome.
 
-### Classical Mythology & Religion
+[Greek and Roman Mythology (Coursera/University of Pennsylvania/Peter Struck)](https://www.coursera.org/learn/mythology) - A structured online course analyzing foundational Greco-Roman myth cycles alongside ancient and modern interpretive frameworks.
 
-| Subject | Primary & Secondary Texts | Reference / Digital Resource |
-| --- | --- | --- |
-| Greco-Roman Mythological Canon | Mark P. O. Morford, Robert J. Lenardon, and Michael Sham, [*Classical Mythology*](https://books.google.com/books?isbn=9780190851644) (Oxford University Press); Robin Hard, [*The Routledge Handbook of Greek Mythology*](https://books.google.com/books?isbn=9780415186360) | [Perseus Digital Library: Classical Mythology and Primary Texts](http://www.perseus.tufts.edu/hopper/) |
-| Primary Mythological Sources | Hesiod, *Theogony* and *Works and Days* (trans. M. L. West); *The Homeric Hymns* (trans. Michael Crudden); Ovid, *Metamorphoses* (trans. A. D. Melville or Allen Mandelbaum) | [Theoi Greek Mythology Project / Perseus Digital Library](http://www.perseus.tufts.edu/hopper/) |
-| Ancient Greek & Roman Religion | Walter Burkert, [*Greek Religion*](https://books.google.com/books?isbn=9780674362819); J. A. North, [*Roman Religion*](https://books.google.com/books?isbn=9780199224333) | Oxford Classical Dictionary: Articles on Cult, Ritual, and Divination |
+[Classical Mythology (Mark P. O. Morford, Robert J. Lenardon, and Michael Sham)](https://books.google.com/books?isbn=9780190851644) - A comprehensive textbook combining literary translations, historical commentary, and art historical analysis of classical myths.
 
-## Languages of the Classical World
+[Theogony and Works and Days (Hesiod, trans. M. L. West)](https://books.google.com/books?isbn=9780199538317) - Foundational archaic primary poems presenting the Greek cosmogony, divine succession, and early moral worldviews.
 
-### Latin
+[Greek Religion (Walter Burkert)](https://books.google.com/books?isbn=9780674362819) - The canonical scholarly synthesis of ancient Greek sanctuaries, ritual sacrifice, hero cults, and mystery religions.
 
-| Level | Resource |
-| --- | --- |
-| Primary Textbook (Inductive / Reading Method) | [Hans H. Ørberg, *Lingua Latina per se Illustrata: Pars I: Familia Romana* and *Pars II: Roma Aeterna*](https://archive.org/search?query=lingua+latina+per+se+illustrata) |
-| Primary Textbook (Grammar-Translation Alternative) | Frederic M. Wheelock and Richard A. LaFleur, [*Wheelock's Latin*](https://books.google.com/books?isbn=9780061997228); or Andrew Keller and Stephanie Russell, [*Learn to Read Latin*](https://books.google.com/books?isbn=9780300194951) (Yale University Press) |
-| Reference Grammar & Lexicon | J. B. Greenough et al., [*Allen and Greenough's New Latin Grammar*](https://books.google.com/books?isbn=9780486448060) (available via Perseus and DCC); Charlton T. Lewis and Charles Short, [*A Latin Dictionary*](https://books.google.com/books?isbn=9780198642015) |
-| Intermediate Readers & Student Commentaries | [Dickinson College Commentaries (Latin Texts, Core Vocabulary, and Media)](https://dcc.dickinson.edu/); Geoffrey Steadman, [*College Latin Commentaries*](https://geoffreysteadman.com/) series |
-| Digital Texts & Spoken Latin Audio | [The Latin Library (Repository of Classical Latin Texts)](https://www.thelatinlibrary.com/); Luke Ranieri (ScorpioMartianus Latin pronunciation tutorials) |
-
-### Ancient Greek
-
-| Level | Resource |
-| --- | --- |
-| Primary Textbook (Reading Method) | [Maurice Balme, Gilbert Lawall, and James Morwood, *Athenaze: An Introduction to Ancient Greek* (Books I–II)](https://archive.org/search?query=athenaze); Joint Association of Classical Teachers (JACT), [*Reading Greek*](https://books.google.com/books?isbn=9780521698511) |
-| Primary Textbook (Systematic Grammar Method) | Donald J. Mastronarde, [*Introduction to Attic Greek*](https://books.google.com/books?isbn=9780520275713) (University of California Press) |
-| Grammar Tutorials & Audio Portal | [Donald J. Mastronarde, *Ancient Greek Tutorials* (AtticGreek.org)](https://atticgreek.org/) |
-| Reference Grammar & Lexicon | Herbert Weir Smyth, [*Greek Grammar*](https://books.google.com/books?isbn=9780674362505) (available on Perseus); H. G. Liddell and R. Scott, [*An Intermediate Greek-English Lexicon*](https://books.google.com/books?isbn=9780199102068) |
-| Intermediate Readers & Digital Commentaries | [Dickinson College Commentaries (Greek Texts and Vocabulary)](https://dcc.dickinson.edu/); [Perseus Digital Library (Greek Texts and Morphology Tools)](http://www.perseus.tufts.edu/hopper/) |
-
-## Classical Literature
+[Roman Religion (J. A. North)](https://books.google.com/books?isbn=9780199224333) - A concise survey of Roman civic rituals, priestly colleges, divination, and foreign cult adaptations.
 
 ### Greek Literature
 
-| Genre | Texts & Recommended Editions |
-| --- | --- |
-| Epic & Didactic Poetry | Homer: *Iliad* (selections: Books 1, 6, 9, 16, 22, 24) and *Odyssey* (selections: Books 1, 9–12, 19, 21–23), trans. Richmond Lattimore or Emily Wilson; Hesiod: *Theogony* and *Works and Days*. Text and commentary at [Perseus Digital Library: Homer](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133) and [Dickinson College Commentaries](https://dcc.dickinson.edu/) |
-| Tragedy | Aeschylus: *Oresteia* (*Agamemnon*, *Libation Bearers*, *Eumenides*); Sophocles: *Oedipus Rex* and *Antigone*; Euripides: *Medea* and *Bacchae*. Recommended editions: Oxford World's Classics / Cambridge Greek and Latin Classics. Online at [Perseus Digital Library](http://www.perseus.tufts.edu/hopper) |
-| Comedy | Aristophanes: *Clouds*, *Frogs*, and *Lysistrata*. Recommended translations: Jeffrey Henderson (Loeb Classical Library) or Peter Meineck (Hackett). Online text at [Perseus Digital Library](http://www.perseus.tufts.edu/hopper) |
-| Historiography | Herodotus: *Histories* (selections: Book 1, Books 7–8; The Landmark Herodotus, ed. Robert B. Strassler); Thucydides: *History of the Peloponnesian War* (selections: Book 1; Book 2: Funeral Oration and Plague; Book 5: Melian Dialogue; The Landmark Thucydides). Online at [Perseus Digital Library](http://www.perseus.tufts.edu/hopper) |
-| Philosophy & Oratory | Plato: *Apology*, *Crito*, and *Symposium* (trans. Alexander Nehamas and Paul Woodruff); Lysias: *Speech 1: On the Murder of Eratosthenes* (canonical introductory prose text). Online text with notes at [Dickinson College Commentaries](https://dcc.dickinson.edu/) and [Perseus Digital Library](http://www.perseus.tufts.edu/hopper) |
+A survey of canonical ancient Greek literary genres, including epic poetry, dramatic tragedy, and classical historiography.
+
+[The Ancient Greek Hero in 24 Hours (Harvard University/Center for Hellenic Studies/Gregory Nagy)](https://chs.harvard.edu/book/the-ancient-greek-hero-in-24-hours/) - An open-access coursebook offering close readings of Homeric epic, lyric song, Attic tragedy, and Platonic dialogues through the lens of ancient hero cults.
+
+[The Ancient Greek Hero in 24 Hours: Sourcebook (Center for Hellenic Studies/Gregory Nagy, ed.)](https://chs.harvard.edu/book/the-ancient-greek-hero-in-24-hours-sourcebook/) - A free primary source anthology providing glossed, enhanced translations of Greek literary masterpieces.
+
+[The Iliad (Homer, trans. Richmond Lattimore)](https://books.google.com/books?isbn=9780226470498) - The foundational epic of ancient Greek literature, presenting the wrath of Achilles and heroic aristocratic values.
+
+[Classical Literature: A Concise History (Richard Rutherford)](https://books.google.com/books?isbn=9780631231332) - An authoritative critical overview tracing genre developments, performance contexts, and intellectual history across Greece and Rome.
+
+[The Complete Greek Tragedies (David Grene and Richmond Lattimore, eds.)](https://books.google.com/books?isbn=9780226311449) - The definitive English translation series containing the surviving dramatic works of Aeschylus, Sophocles, and Euripides.
+
+[The Landmark Thucydides: A Comprehensive Guide to the Peloponnesian War (Robert B. Strassler, ed.)](https://books.google.com/books?isbn=9780684827902) - An extensively annotated student edition of classical Greek historiography featuring marginal summaries, maps, and thematic appendices.
 
 ### Latin Literature
 
-| Genre | Texts & Recommended Editions |
-| --- | --- |
-| Epic Poetry | Virgil: *Aeneid* (core books: 1, 2, 4, 6, 8, 12), trans. Robert Fagles, Robert Fitzgerald, or Sarah Ruden; Ovid: *Metamorphoses* (selections: Books 1, 8, 10). Online texts and commentaries at [Perseus Digital Library: Virgil](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0055) and [Dickinson College Commentaries: Aeneid and Metamorphoses](https://dcc.dickinson.edu/) |
-| Lyric, Elegy & Epigram | Catullus: *Carmina* (selections: Poems 1, 2, 3, 5, 8, 51, 76, 85, 101); Horace: *Odes* (selections: Books 1–3); Propertius and Tibullus (elegiac selections); Martial: *Epigrams* (selections). Text and commentaries at [Dickinson College Commentaries](https://dcc.dickinson.edu/) and [The Latin Library](https://www.thelatinlibrary.com/) |
-| Historiography & Biography | Sallust: *Bellum Catilinae*; Livy: *Ab Urbe Condita* (Book 1: Foundation of Rome); Tacitus: *Annals* (selections: Books 1–4, 14–15) and *Agricola*; Suetonius: *Life of Augustus*. Text and commentaries at [Perseus Digital Library](http://www.perseus.tufts.edu/hopper) and [The Latin Library](https://www.thelatinlibrary.com/) |
-| Oratory, Rhetoric & Philosophy | Cicero: *In Catilinam I*, *Pro Archia Poeta*, and *De Re Publica* (Dream of Scipio); Seneca the Younger: *Epistulae Morales ad Lucilium* (selections). Text and commentaries at [Dickinson College Commentaries: Cicero](https://dcc.dickinson.edu/) and [Perseus Digital Library: Cicero](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0021) |
+Major literary works and genres of ancient Rome, encompassing Republican oratory, Augustan epic and elegiac poetry, and imperial historiography.
 
-# Code of conduct
+[Latin Literature: A History (Gian Biagio Conte)](https://books.google.com/books?isbn=9780801485374) - The canonical single-volume critical survey of Latin authors from early Republican drama through late antiquity.
 
-[Hocbigg's code of conduct](https://github.com/hocbigg/code-of-conduct).
+[Literature in the Roman World (Oliver Taplin, ed.)](https://books.google.com/books?isbn=9780198721413) - An accessible handbook examining the social environments, patronage networks, and performance contexts of Roman literature.
+
+[The Aeneid (Virgil, trans. Robert Fagles, notes by Bernard Knox)](https://books.google.com/books?isbn=9780143105138) - Rome's national epic, tracing Trojan exile, Augustan destiny, and the moral cost of empire.
+
+[Metamorphoses (Ovid, trans. A. D. Melville)](https://books.google.com/books?isbn=9780199537372) - The seminal Roman poetic encyclopedia of classical transformation myths from the creation of the world to Julius Caesar.
+
+[Selected Political Speeches (Cicero, trans. Michael Grant)](https://books.google.com/books?isbn=9780140442144) - A guided selection of Roman Republican forensic and senatorial rhetoric, including the Catilinarian orations.
+
+[The Annals: The Reigns of Tiberius, Claudius, and Nero (Tacitus, trans. J. C. Yardley)](https://books.google.com/books?isbn=9780192824219) - The foremost Roman historical critique of the early Principate, accompanied by explanatory notes and historical commentary.
+
+### Classical Archaeology and Material Culture
+
+The study of physical artifacts, architecture, sculpture, and urban topography across the Mediterranean basin.
+
+[Roman Architecture (Open Yale Courses/Diana E. E. Kleiner)](https://oyc.yale.edu/history-of-art/hsar-252) - A complete 24-lecture course examining Roman urban design, concrete vaulting technology, and monumental civic infrastructure.
+
+[Roman Art and Archaeology (Coursera/University of Arizona/David Soren)](https://www.coursera.org/learn/roman-art-archaeology) - An introductory online course surveying the physical remains, pottery, domestic spaces, and excavation sites of the Roman world.
+
+[The Archaeology of Greece: An Introduction (William R. Biers)](https://books.google.com/books?isbn=9780801482809) - A foundational guide to Greek ceramics, architectural orders, and sculpture from the Bronze Age through the Hellenistic period.
+
+[Roman Art (Paul Zanker)](https://books.google.com/books?isbn=9781606061015) - A focused handbook analyzing Roman portraiture, state reliefs, and decorative visual culture within its socio-political context.
+
+### Latin Language
+
+Sequential instruction in Classical Latin morphology, syntax, and progressive reading skills.
+
+[Lingua Latina per se Illustrata: Pars I: Familia Romana (Hans H. Ørberg)](https://books.google.com/books?isbn=9788790696122) - An inductive reading course teaching Latin grammar and extensive vocabulary directly through contextual Latin prose without English translation.
+
+[Lingua Latina per se Illustrata: Pars II: Roma Aeterna (Hans H. Ørberg)](https://books.google.com/books?isbn=9781585100675) - The intermediate continuation of Ørberg's method, guiding learners through adapted and unadapted texts from Livy, Virgil, and Horace.
+
+[Wheelock's Latin (Frederic M. Wheelock and Richard A. LaFleur)](https://books.google.com/books?isbn=9780061997228) - The standard systematic grammar-translation textbook featuring clear paradigm charts, grammar explanations, exercises, and adapted readings.
+
+[Latin Pronunciation and Spoken Latin Tutorials (YouTube/Luke Ranieri/ScorpioMartianus)](https://www.youtube.com/@ScorpioMartianus) - Audio and video guides covering Classical Latin phonology, vowel quantity, macron usage, and natural phrasing.
+
+[College Latin Commentaries (Geoffrey Steadman)](https://geoffreysteadman.com/) - Free downloadable intermediate guided readers covering unadapted texts by Caesar, Cicero, and Catullus with facing vocabulary and syntactical explanations.
+
+### Ancient Greek Language
+
+Sequential instruction in Attic Greek alphabetics, phonology, nominal and verbal morphology, and intermediate prose reading.
+
+[Athenaze: An Introduction to Ancient Greek (Maurice Balme, Gilbert Lawall, and James Morwood)](https://books.google.com/books?isbn=9780190607661) - A leading narrative-driven reading textbook that builds Attic Greek vocabulary and syntactic understanding through continuous reading passages.
+
+[Introduction to Attic Greek (Donald J. Mastronarde)](https://books.google.com/books?isbn=9780520275713) - A thorough grammar textbook providing clear explanations of Greek verbal systems, nominal declensions, and complex clause syntax.
+
+[Ancient Greek Tutorials (AtticGreek.org/Donald J. Mastronarde)](http://atticgreek.org/) - Free interactive digital drills featuring native pronunciation recordings, accent rules, and paradigm tests keyed to introductory Attic Greek.
+
+[College Greek Commentaries (Geoffrey Steadman)](https://geoffreysteadman.com/) - Free downloadable student readers providing unadapted Greek texts by Plato, Lysias, and Xenophon with facing-page vocabulary and grammatical notes.
 
