@@ -1,97 +1,425 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Extra Reading</title>
-<link rel="stylesheet" href="/classics/style.css">
-<meta name="description" content="">
+  <title>Great Readings</title>
+  <meta name="description" content="A lightweight static page by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/classics/">
+  <link rel="canonical" href="https://hocbigg.github.io/classics/extras/readings.html">
+  <meta property="og:title" content="Great Readings">
+  <meta property="og:description" content="A lightweight static page by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/classics/extras/readings.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Extra Reading">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/classics/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: min(60rem, 92vw);
+  padding: 0 0.75rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  color: var(--fg);
+}
+h1 { font-size: 1.85rem; margin-top: 0.5em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/classics/">Classics</a>
-<a href="/classics/advanced_topics.html">Advanced Topics</a>
-<a href="/classics/projects.html">Projects</a>
-<a href="/classics/extras/courses.html">Extra Courses</a>
-<a href="/classics/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/classics/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/classics/">Classics</a></li>
+      <li><a href="/classics/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/classics/projects.html">Projects</a></li>
+      <li><a href="/classics/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/classics/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/classics/resources.html">Resources</a></li>
+      <li><a href="/classics/extras/other_curricula.html">Other Curricula</a></li>
+      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="extra-reading">Extra Reading</h1>
-<p>This document consists of great books or articles on Classics.
-Some are here because there is a course covering the same material;
-some are just great books that you should read at some point in your career.</p>
-<p>Once you have made it through most of the curriculum, knowing whether a book is worth your time will become easier.
-Or, if you are struggling in one of the courses, perhaps reading a book on the subject will help.</p>
-<table>
+  <main id="main-content">
+    <article>
+
+<h1 id="great-readings">Great Readings</h1>
+<p>A curated bibliography of field-defining monographs, seminal essays, and paradigm-shifting studies in Classical Studies. These works illustrate how classical scholars discover insights, formulate interpretive frameworks, and challenge disciplinary dogma.</p>
+<h2 id="philological-paradigms-orality-textual-transmission">Philological Paradigms, Orality &amp; Textual Transmission</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: left;">Author(s)</th>
+<th>Title</th>
+<th>Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/SPQR-History-Ancient-Rome/dp/0871407112">SPQR: A History of Ancient Rome</a></td>
-<td style="text-align: left;">Mary Beard</td>
+<td><a href="https://archive.org/details/MilmanParryTheMakingOfHomericVerse1971" target="_blank" rel="noopener noreferrer"><em>The Making of Homeric Verse: The Collected Papers of Milman Parry</em></a></td>
+<td>Milman Parry (ed. Adam Parry)</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Rubicon-Last-Years-Roman-Republic/dp/1400078970">Rubicon: The Last Years of the Roman Republic</a></td>
-<td style="text-align: left;">Tom Holland</td>
+<td><a href="https://chs.harvard.edu/book/the-best-of-the-achaeans-concepts-of-the-hero-in-archaic-greek-poetry/" target="_blank" rel="noopener noreferrer"><em>The Best of the Achaeans: Concepts of the Hero in Archaic Greek Poetry</em></a></td>
+<td>Gregory Nagy</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Landmark-Thucydides-Revised-Maps-Illustrations/dp/0684865254">The Landmark Thucydides</a></td>
-<td style="text-align: left;">Robert B. Strassler (ed.)</td>
+<td><a href="https://books.google.com/books?isbn=9780198152217" target="_blank" rel="noopener noreferrer"><em>The East Face of Helicon: West Asiatic Elements in Greek Poetry and Myth</em></a></td>
+<td>M. L. West</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Histories-Herodotus-Penguin-Classics/dp/0140449086">The Histories</a></td>
-<td style="text-align: left;">Herodotus (trans. Aubrey de Sélincourt)</td>
+<td><a href="https://archive.org/details/scribesscholarsg0000reyn" target="_blank" rel="noopener noreferrer"><em>Scribes and Scholars: A Guide to the Transmission of Greek and Latin Literature</em></a></td>
+<td>L. D. Reynolds and N. G. Wilson</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://press.princeton.edu/books/hardcover/9780691140919/the-rise-and-fall-of-classical-greece">The Rise and Fall of Classical Greece</a></td>
-<td style="text-align: left;">Josiah Ober</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Women-Classical-World-Image-Action/dp/0195098625">Women in the Classical World</a></td>
-<td style="text-align: left;">Elaine Fantham et al.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.cambridge.org/core/books/cambridge-companion-to-greek-mythology/3B3E2E7A5D5E5E5E5E5E5E5E5E5E5E5E">The Cambridge Companion to Greek Mythology</a></td>
-<td style="text-align: left;">Roger D. Woodard (ed.)</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Plato-Complete-Works-John-Cooper/dp/0872203492">Plato: Complete Works</a></td>
-<td style="text-align: left;">John M. Cooper (ed.)</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Greek-Way-Edith-Hamilton/dp/0393350801">The Greek Way</a></td>
-<td style="text-align: left;">Edith Hamilton</td>
-</tr>
-<tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Roman-Way-Edith-Hamilton/dp/0393352502">The Roman Way</a></td>
-<td style="text-align: left;">Edith Hamilton</td>
+<td><a href="https://archive.org/details/prefacetoplato0000have" target="_blank" rel="noopener noreferrer"><em>Preface to Plato</em></a></td>
+<td>Eric A. Havelock</td>
 </tr>
 </tbody>
-</table>
-</article>
-</main>
+</table></div>
+<h2 id="ancient-history-economy-social-formations">Ancient History, Economy &amp; Social Formations</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://archive.org/details/ancienteconomy0000finl" target="_blank" rel="noopener noreferrer"><em>The Ancient Economy</em></a></td>
+<td>M. I. Finley</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/classstruggleina0000dest" target="_blank" rel="noopener noreferrer"><em>The Class Struggle in the Ancient Greek World</em></a></td>
+<td>G. E. M. de Ste. Croix</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/emperorinromanwo0000mill" target="_blank" rel="noopener noreferrer"><em>The Emperor in the Roman World (31 BC – AD 337)</em></a></td>
+<td>Fergus Millar</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780691028644" target="_blank" rel="noopener noreferrer"><em>Mass and Elite in Democratic Athens: Rhetoric, Ideology, and the Power of the People</em></a></td>
+<td>Josiah Ober</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780521375856" target="_blank" rel="noopener noreferrer"><em>Famine and Food Supply in the Graeco-Roman World: Responses to Risk and Crisis</em></a></td>
+<td>Peter Garnsey</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="myth-ritual-religion-the-ancient-mind">Myth, Ritual, Religion &amp; the Ancient Mind</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://archive.org/details/greeksirrational0000dodd" target="_blank" rel="noopener noreferrer"><em>The Greeks and the Irrational</em></a></td>
+<td>E. R. Dodds</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/homonecansanthro0000burk" target="_blank" rel="noopener noreferrer"><em>Homo Necans: The Anthropology of Ancient Greek Sacrificial Ritual and Myth</em></a></td>
+<td>Walter Burkert</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/myththoughtamong0000vern" target="_blank" rel="noopener noreferrer"><em>Myth and Thought among the Greeks</em></a></td>
+<td>Jean-Pierre Vernant</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780226854342" target="_blank" rel="noopener noreferrer"><em>Did the Greeks Believe in Their Myths? An Essay on the Constitutive Imagination</em></a></td>
+<td>Paul Veyne</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780521316828" target="_blank" rel="noopener noreferrer"><em>Religions of Rome</em></a></td>
+<td>Mary Beard, John North, and Simon Price</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="poetics-literary-theory-ancient-hermeneutics">Poetics, Literary Theory &amp; Ancient Hermeneutics</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://archive.org/details/erosthebitterswe0000cars" target="_blank" rel="noopener noreferrer"><em>Eros the Bittersweet</em></a></td>
+<td>Anne Carson</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780198149385" target="_blank" rel="noopener noreferrer"><em>The Gods in Epic: Poets and Critics of the Classical Tradition</em></a></td>
+<td>D. C. Feeney</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780806131368" target="_blank" rel="noopener noreferrer"><em>Tragedy and Civilization: An Interpretation of Sophocles</em></a></td>
+<td>Charles Segal</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780674362703" target="_blank" rel="noopener noreferrer"><em>Greek Homosexuality</em></a></td>
+<td>Kenneth J. Dover</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/constraintsdesir0000wink" target="_blank" rel="noopener noreferrer"><em>The Constraints of Desire: The Anthropology of Sex and Gender in Ancient Greece</em></a></td>
+<td>John J. Winkler</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="late-antiquity-cultural-transformation-reception-studies">Late Antiquity, Cultural Transformation &amp; Reception Studies</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780500297483" target="_blank" rel="noopener noreferrer"><em>The World of Late Antiquity: AD 150–750</em></a></td>
+<td>Peter Brown</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780520089235" target="_blank" rel="noopener noreferrer"><em>Christianity and the Rhetoric of Empire: The Development of Christian Discourse</em></a></td>
+<td>Averil Cameron</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780521427197" target="_blank" rel="noopener noreferrer"><em>Redeeming the Text: Latin Poetry and the Hermeneutics of Reception</em></a></td>
+<td>Charles Martindale</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/goddesseswhoresw0000pome_c5g1" target="_blank" rel="noopener noreferrer"><em>Goddesses, Whores, Wives, and Slaves: Women in Classical Antiquity</em></a></td>
+<td>Sarah B. Pomeroy</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9781780931579" target="_blank" rel="noopener noreferrer"><em>Race: Antiquity and Its Legacy</em></a></td>
+<td>Denise Eileen McCoskey</td>
+</tr>
+</tbody>
+</table></div>
+    </article>
+  </main>
 
 </body>
 </html>

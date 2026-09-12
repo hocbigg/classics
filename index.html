@@ -1,287 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Hocbigg - Classics</title>
-<link rel="stylesheet" href="/classics/style.css">
-<meta name="description" content="Path to a free self-taught education in Classics!">
+  <title>Hocbigg - Classics</title>
+  <meta name="description" content="Path to a free self-taught education in Classics!">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/classics/">
+  <link rel="canonical" href="https://hocbigg.github.io/classics/">
+  <meta property="og:title" content="Hocbigg - Classics">
+  <meta property="og:description" content="Path to a free self-taught education in Classics!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/classics/">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Hocbigg - Classics">
-<meta property="og:description" content="Path to a free self-taught education in Classics!">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/classics/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: min(60rem, 92vw);
+  padding: 0 0.75rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  color: var(--fg);
+}
+h1 { font-size: 1.85rem; margin-top: 0.5em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/classics/">Classics</a>
-<a href="/classics/advanced_topics.html">Advanced Topics</a>
-<a href="/classics/projects.html">Projects</a>
-<a href="/classics/extras/courses.html">Extra Courses</a>
-<a href="/classics/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/classics/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/classics/">Classics</a></li>
+      <li><a href="/classics/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/classics/projects.html">Projects</a></li>
+      <li><a href="/classics/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/classics/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/classics/resources.html">Resources</a></li>
+      <li><a href="/classics/extras/other_curricula.html">Other Curricula</a></li>
+      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
+  <main id="main-content">
+    <article>
 <header class="page-header">
-  <img src="/images/logo.png" alt="">
+  <img src="/images/logo.png" alt="Hocbigg logo">
   <h1>Hocbigg - Classics</h1>
 </header>
-
-<h1 id="contents">Contents</h1>
 <ul>
 <li><a href="#summary">Summary</a></li>
 <li><a href="#communities">Communities</a></li>
 <li><a href="#curriculum">Curriculum</a></li>
-<li><a href="#code-of-conduct">Code of conduct</a></li>
 </ul>
-<h1 id="summary">Summary</h1>
-<p>The Classics curriculum is a complete education in Classics using online materials.</p>
-<h2 id="organization">Organization</h2>
-<p>This repository is organized into three main components:</p>
-<ul>
-<li><strong>Core Curriculum</strong> (this page): the foundational knowledge of the field;</li>
-<li><strong><a href="advanced_topics.html">Advanced Topics</a></strong>: focused study in specific areas;</li>
-<li><strong><a href="projects.html">Projects</a></strong>: support learning through practical application throughout the curriculum.</li>
-</ul>
-<p><strong>Process:</strong> Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.</p>
-<ul>
-<li>For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.</li>
-<li>The Core Curriculum provides a shared foundation and is intended to be completed in full.</li>
-<li>Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.</li>
-</ul>
-<p>Practical work is integrated through the <a href="projects.html">Projects section</a> and may be undertaken alongside coursework.</p>
-<p>Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in <a href="extras/courses.html">extras/courses</a>, <a href="extras/readings.html">extras/readings</a>.</p>
+<h2 id="summary">Summary</h2>
+<p>The Classics curriculum is a complete education in Classics using online materials. This curriculum aims to cover the history, literature, languages, and culture of ancient Greece and Rome.</p>
 <p><strong><a href="/CONTRIBUTING.html">How to contribute</a></strong></p>
-<h1 id="communities">Communities</h1>
+<h2 id="communities">Communities</h2>
 <ul>
 <li>Forums:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.textkit.com/greek-latin-forum/">Textkit Forums</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/latin/comments/1e2x1b/latin_discussion/">Latin Discussion</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/AncientGreek/comments/1e2x1b/ancient_greek_discussion/">Ancient Greek Discussion</a></li>
+<li><a href="https://www.textkit.com/greek-latin-forum/" target="_blank" rel="noopener noreferrer">Textkit Forums</a></li>
+<li><a href="https://www.reddit.com/r/latin/comments/1e2x1b/latin_discussion/" target="_blank" rel="noopener noreferrer">Latin Discussion</a></li>
+<li><a href="https://www.reddit.com/r/AncientGreek/comments/1e2x1b/ancient_greek_discussion/" target="_blank" rel="noopener noreferrer">Ancient Greek Discussion</a></li>
 </ul>
 </li>
 <li>Subreddits:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/classics/">r/classics</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/latin/">r/latin</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/AncientGreek/">r/AncientGreek</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/classicliterature/">r/classicliterature</a></li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/ancienthistory/">r/ancienthistory</a></li>
+<li><a href="https://www.reddit.com/r/classics/" target="_blank" rel="noopener noreferrer">r/classics</a></li>
+<li><a href="https://www.reddit.com/r/latin/" target="_blank" rel="noopener noreferrer">r/latin</a></li>
+<li><a href="https://www.reddit.com/r/AncientGreek/" target="_blank" rel="noopener noreferrer">r/AncientGreek</a></li>
+<li><a href="https://www.reddit.com/r/classicliterature/" target="_blank" rel="noopener noreferrer">r/classicliterature</a></li>
+<li><a href="https://www.reddit.com/r/ancienthistory/" target="_blank" rel="noopener noreferrer">r/ancienthistory</a></li>
 </ul>
 </li>
-<li>You can also interact through <a target="_blank" rel="noopener noreferrer" href="https://github.com/hocbigg/classics/issues">GitHub issues</a>. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more <a href="/CONTRIBUTING.html">here</a>.</li>
-<li>
-<p>Join our Discord server (for discussions around this and other curricula): </p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/KHqAv4Nvm5"><img alt="discord link" src="/assets/discord.png" /></a></p>
-</li>
+<li>You can also interact through <a href="https://github.com/hocbigg/classics/issues" target="_blank" rel="noopener noreferrer">GitHub issues</a>. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more <a href="/CONTRIBUTING.html">here</a>.</li>
 </ul>
-<h1 id="curriculum">Curriculum</h1>
-<ul>
-<li><a href="#how-to-use-this-curriculum">How to use this curriculum</a></li>
-<li><a href="#orientation-to-classical-studies">Orientation to Classical Studies</a></li>
-<li><a href="#the-ancient-mediterranean-world">The Ancient Mediterranean World</a><ul>
-<li><a href="#historical--geographical-foundations">Historical &amp; Geographical Foundations</a></li>
-</ul>
-</li>
-<li><a href="#languages-of-the-classical-world">Languages of the Classical World</a><ul>
-<li><a href="#latin">Latin</a></li>
-<li><a href="#ancient-greek">Ancient Greek</a></li>
-</ul>
-</li>
-<li><a href="#classical-literature">Classical Literature</a><ul>
-<li><a href="#greek">Greek</a></li>
-<li><a href="#latin">Latin</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="how-to-use-this-curriculum">How to use this curriculum</h2>
-<h3 id="core">Core</h3>
-<p>Everyone should complete the following sections in sequence to gain a coherent foundation in the discipline:</p>
-<ol>
-<li>
-<p>I. Orientation to Classical Studies<br />
-   Start here. This gives the basic context and shows how knowledge of the ancient world is constructed.</p>
-</li>
-<li>
-<p>II. The Ancient Mediterranean World<br />
-   Build your historical and geographical framework. Work through the historical overviews and become comfortable using maps of the ancient world.</p>
-</li>
-<li>
-<p>III. Languages of the Classical World<br />
-   Learn at least one of the two languages (Latin or Ancient Greek) to an intermediate reading level.  </p>
-</li>
-<li>Choose one language to focus on seriously (most people begin with Latin because resources are slightly more beginner-friendly).  </li>
-<li>
-<p>Use the other language only as a supplement later, if time and interest allow.</p>
-</li>
-<li>
-<p>IV. Classical Literature<br />
-   Read major works in the language you chose. This is the heart of Classics: direct engagement with the primary texts that have shaped Western thought.</p>
-</li>
-</ol>
-<p>After finishing these four core sections, you will have the essential knowledge and skills of an undergraduate Classics major (before moving to <a href="advanced_topics.html">Advanced Topics</a>): historical context, geographical awareness, working knowledge of one classical language, and firsthand experience reading the major authors.</p>
-<h2 id="orientation-to-classical-studies">Orientation to Classical Studies</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resources</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>What is Classics?</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/classicsveryshor00bear">Mary Beard, <em>Classics: A Very Short Introduction</em></a></td>
-</tr>
-<tr>
-<td>How we know the ancient world</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/classics/clcv-205">Open Yale: Introduction to Ancient Greek History (weeks 1–2)</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="the-ancient-mediterranean-world">The Ancient Mediterranean World</h2>
-<h3 id="historical-geographical-foundations">Historical &amp; Geographical Foundations</h3>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book</th>
-<th>Video</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Bronze Age &amp; Near East (including Egypt/Persia context)</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/1177bcyearcivili0000clin_l1r1">Cline, <em>1177 BC</em></a></td>
-<td>Yale Ancient Near East lectures (see related context in <a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/religious-studies/rlst-145">RLST 145 lectures</a>)</td>
-</tr>
-<tr>
-<td>Ancient Greece (Archaic–Hellenistic)</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/ancientgreecepol00sara">Pomeroy et al., <em>Ancient Greece</em></a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/classics/clcv-205">Yale Greek History</a></td>
-</tr>
-<tr>
-<td>Ancient Rome</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/romansfromvillag0000unse">Boatwright et al., <em>The Romans</em></a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://ocw.mit.edu/courses/21h-132-the-ancient-world-rome-spring-2017/">MIT Ancient Rome</a></td>
-</tr>
-<tr>
-<td>Geography &amp; Maps</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://press.princeton.edu/books/hardcover/9780691031699/barrington-atlas-of-the-greek-and-roman-world">Talbert, <em>Barrington Atlas Map Guide</em> (open PDF)</a> (see also directory info)</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://imperium.ahlfeldt.se/">Digital Atlas of the Roman Empire</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="languages-of-the-classical-world">Languages of the Classical World</h2>
-<h3 id="latin">Latin</h3>
-<table>
-<thead>
-<tr>
-<th>Level</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Beginner → Intermediate</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/search?query=lingua+latina+per+se+illustrata">Ørberg, <em>Lingua Latina per se Illustrata</em> I–II</a> (search for specific volumes)</td>
-</tr>
-<tr>
-<td>Supplement</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@ScorpioMartianus">ScorpioMartianus YouTube</a></td>
-</tr>
-</tbody>
-</table>
-<h3 id="ancient-greek">Ancient Greek</h3>
-<table>
-<thead>
-<tr>
-<th>Level</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Beginner → Intermediate</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/search?query=athenaze">Athenaze I–II</a> (search for specific volumes); alternative: <a target="_blank" rel="noopener noreferrer" href="https://www.cambridge.org/core/books/reading-greek/9780521698511">Reading Greek (JACT)</a> for more grammar support</td>
-</tr>
-<tr>
-<td>Supplement</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PLq5ea-jR9u2puDaLoRL-nBkpwrkURbLjT">Harvard Greek videos</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="classical-literature">Classical Literature</h2>
-<h3 id="greek">Greek</h3>
-<table>
-<thead>
-<tr>
-<th>Genre</th>
-<th>Texts</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Epic</td>
-<td><a target="_blank" rel="noopener noreferrer" href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133">Homer: Iliad (selections, Books 1, 6, 9, 22–24) and Odyssey (selections, Books 1, 9–12)</a></td>
-</tr>
-<tr>
-<td>Drama</td>
-<td><a target="_blank" rel="noopener noreferrer" href="http://www.perseus.tufts.edu/hopper">Tragedy: Aeschylus (Agamemnon or Oresteia selections), Sophocles (Oedipus Tyrannus), Euripides (Medea or Bacchae selections); Comedy: Aristophanes (Clouds or Frogs selections)</a></td>
-</tr>
-<tr>
-<td>History</td>
-<td>Herodotus (selections, Book 1), Thucydides (selections, Book 1–2)</td>
-</tr>
-<tr>
-<td>Philosophy</td>
-<td>Plato (Apology, Crito, or Symposium selections)</td>
-</tr>
-</tbody>
-</table>
-<h3 id="latin_1">Latin</h3>
-<table>
-<thead>
-<tr>
-<th>Genre</th>
-<th>Texts</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Epic</td>
-<td><a target="_blank" rel="noopener noreferrer" href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0055">Virgil: Aeneid (selections, Books 1, 2, 4, 6)</a></td>
-</tr>
-<tr>
-<td>Lyric &amp; Elegy</td>
-<td><a target="_blank" rel="noopener noreferrer" href="http://www.perseus.tufts.edu/hopper">Horace (Odes selections), Catullus (Carmina selections), Ovid (Metamorphoses or Amores selections)</a></td>
-</tr>
-<tr>
-<td>History</td>
-<td><a target="_blank" rel="noopener noreferrer" href="http://www.perseus.tufts.edu/hopper">Livy (selections, Book 1), Tacitus (Annals selections)</a></td>
-</tr>
-<tr>
-<td>Oratory</td>
-<td><a target="_blank" rel="noopener noreferrer" href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0021">Cicero</a> (In Catilinam selections or Pro Archia)</td>
-</tr>
-</tbody>
-</table>
-<h1 id="code-of-conduct">Code of conduct</h1>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/hocbigg/code-of-conduct">Hocbigg's code of conduct</a>.</p>
-</article>
-</main>
+<h2 id="introduction-to-classical-studies">Introduction to Classical Studies</h2>
+<p>An orientation to the interdisciplinary scope, evidentiary methods, and cultural legacy of ancient Greek and Roman civilizations.</p>
+<p><a href="https://books.google.com/books?isbn=9780192853851" target="_blank" rel="noopener noreferrer">Classics: A Very Short Introduction (Mary Beard and John Henderson)</a> - An engaging primer exploring how classicists investigate the ancient world through material artifacts, literary texts, and modern cultural reception.</p>
+<p><a href="https://books.google.com/books?isbn=9780465024971" target="_blank" rel="noopener noreferrer">The Classical World: An Epic History from Homer to Hadrian (Robin Lane Fox)</a> - A sweeping narrative history that synthesizes the interconnected political and cultural trajectories of archaic Greece through imperial Rome.</p>
+<h2 id="ancient-greek-history">Ancient Greek History</h2>
+<p>A survey of Greek political, military, and social institutions from the Bronze Age through the Classical polis and the Hellenistic kingdoms.</p>
+<p><a href="https://oyc.yale.edu/classics/clcv-205" target="_blank" rel="noopener noreferrer">Introduction to Ancient Greek History (Open Yale Courses/Donald Kagan)</a> - A complete 24-lecture university video course covering Greek history from the Mycenaean era through fourth-century Spartan hegemony.</p>
+<p><a href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0009" target="_blank" rel="noopener noreferrer">An Overview of Classical Greek History from Mycenae to Alexander (Perseus Digital Library/Thomas R. Martin)</a> - A free, structured digital textbook introducing political institutions, the Persian and Peloponnesian wars, and daily civic life.</p>
+<p><a href="https://books.google.com/books?isbn=9780190686918" target="_blank" rel="noopener noreferrer">Ancient Greece: A Political, Social, and Cultural History (Sarah B. Pomeroy et al.)</a> - The standard academic textbook detailing archaic developments, Athenian democracy, Spartan society, and Hellenistic kingdoms.</p>
+<p><a href="https://books.google.com/books?isbn=9780300160055" target="_blank" rel="noopener noreferrer">Ancient Greece: From Prehistoric to Hellenistic Times (Thomas R. Martin)</a> - An accessible print expansion of Martin's Perseus history providing a cohesive narrative for independent beginners.</p>
+<h2 id="roman-history">Roman History</h2>
+<p>An examination of the Roman state from its archaic Italian foundations through the Republic, the Augustan Principate, and Late Antiquity.</p>
+<p><a href="https://ocw.mit.edu/courses/21h-132-the-ancient-world-rome-spring-2017/" target="_blank" rel="noopener noreferrer">The Ancient World: Rome (MIT OpenCourseWare/Will Broadhead)</a> - An undergraduate course providing complete lecture slides, thematic syllabi, and primary source reading guides tracing Roman political evolution.</p>
+<p><a href="https://books.google.com/books?isbn=9780199730575" target="_blank" rel="noopener noreferrer">The Romans: From Village to Empire (Mary T. Boatwright et al.)</a> - The premier academic survey textbook tracing Roman history from early settlements through the reign of Constantine.</p>
+<p><a href="https://books.google.com/books?isbn=9780871404237" target="_blank" rel="noopener noreferrer">SPQR: A History of Ancient Rome (Mary Beard)</a> - An analytical narrative that examines Roman citizenship, political rhetoric, and everyday social life against traditional historiography.</p>
+<h2 id="classical-mythology-and-religion">Classical Mythology and Religion</h2>
+<p>An investigation of polytheistic belief systems, sacred rituals, divine pantheons, and mythic cycles across ancient Greece and Rome.</p>
+<p><a href="https://www.coursera.org/learn/mythology" target="_blank" rel="noopener noreferrer">Greek and Roman Mythology (Coursera/University of Pennsylvania/Peter Struck)</a> - A structured online course analyzing foundational classical myths alongside both ancient and modern interpretive frameworks.</p>
+<p><a href="https://books.google.com/books?isbn=9780190851644" target="_blank" rel="noopener noreferrer">Classical Mythology (Mark P. O. Morford, Robert J. Lenardon, and Michael Sham)</a> - A comprehensive textbook combining literary translations, comparative analysis, and artistic depictions of classical myth.</p>
+<p><a href="https://www.gutenberg.org/ebooks/348" target="_blank" rel="noopener noreferrer">Theogony and Works and Days (Hesiod, trans. Hugh G. Evelyn-White)</a> - Free full-text public domain translations of the foundational archaic poems outlining the Greek divine succession and early agrarian moral worldview.</p>
+<p><a href="https://books.google.com/books?isbn=9780674362819" target="_blank" rel="noopener noreferrer">Greek Religion (Walter Burkert)</a> - The seminal scholarly synthesis detailing Greek ritual sacrifice, hero cults, sanctuary spaces, and mystery religions.</p>
+<p><a href="https://books.google.com/books?isbn=9780199224333" target="_blank" rel="noopener noreferrer">Roman Religion (J. A. North)</a> - A concise handbook examining Roman civic cults, divination practices, priestly colleges, and the integration of foreign deities.</p>
+<h2 id="ancient-greek-literature">Ancient Greek Literature</h2>
+<p>A survey of archaic, classical, and Hellenistic Greek literary genres, including epic poetry, Attic drama, and historical narrative.</p>
+<p><a href="https://www.edx.org/learn/literature/harvard-university-the-ancient-greek-hero" target="_blank" rel="noopener noreferrer">The Ancient Greek Hero (HarvardX/Gregory Nagy)</a> - A guided online course offering close literary readings of Homeric epic, lyric song, Attic tragedy, and Platonic dialogues.</p>
+<p><a href="https://chs.harvard.edu/book/the-ancient-greek-hero-in-24-hours/" target="_blank" rel="noopener noreferrer">The Ancient Greek Hero in 24 Hours (Harvard University/Center for Hellenic Studies/Gregory Nagy)</a> - An open-access coursebook analyzing the major texts of classical Greek literature through the concept of the cult hero.</p>
+<p><a href="https://chs.harvard.edu/book/the-ancient-greek-hero-in-24-hours-sourcebook/" target="_blank" rel="noopener noreferrer">The Ancient Greek Hero in 24 Hours: Sourcebook (Center for Hellenic Studies/Gregory Nagy, ed.)</a> - A free primary source reader providing curated, modern translations of Homer, Hesiod, Pindar, the tragedians, and Plato.</p>
+<p><a href="http://classics.mit.edu/Homer/iliad.html" target="_blank" rel="noopener noreferrer">The Iliad (The Internet Classics Archive/Homer, trans. Samuel Butler)</a> - A free full-text translation of the foundational European epic capturing the heroic code and the wrath of Achilles; Richmond Lattimore's translation is the modern academic standard.</p>
+<p><a href="https://books.google.com/books?isbn=9780631231332" target="_blank" rel="noopener noreferrer">Classical Literature: A Concise History (Richard Rutherford)</a> - An authoritative critical survey detailing genre evolution, performance contexts, and poetic style across Greece and Rome.</p>
+<p><a href="https://books.google.com/books?isbn=9780226311449" target="_blank" rel="noopener noreferrer">The Complete Greek Tragedies (David Grene and Richmond Lattimore, eds.)</a> - The standard modern translation collection containing the extant dramatic works of Aeschylus, Sophocles, and Euripides.</p>
+<p><a href="https://books.google.com/books?isbn=9780684827902" target="_blank" rel="noopener noreferrer">The Landmark Thucydides: A Comprehensive Guide to the Peloponnesian War (Robert B. Strassler, ed.)</a> - An annotated primary text edition featuring running summaries, maps, and technical appendices; Richard Crawley's unabridged translation is also freely available on The Internet Classics Archive.</p>
+<h2 id="latin-literature">Latin Literature</h2>
+<p>A critical study of canonical Roman literature from Republican oratory and drama to Augustan epic and Imperial historiography.</p>
+<p><a href="https://books.google.com/books?isbn=9780801485374" target="_blank" rel="noopener noreferrer">Latin Literature: A History (Gian Biagio Conte)</a> - The standard single-volume critical survey exploring Latin authors, stylistic shifts, and genres from early comedy through late antiquity.</p>
+<p><a href="https://books.google.com/books?isbn=9780198721413" target="_blank" rel="noopener noreferrer">Literature in the Roman World (Oliver Taplin, ed.)</a> - An accessible handbook contextualizing Roman literary production within imperial patronage, recital culture, and civic life.</p>
+<p><a href="http://classics.mit.edu/Virgil/aeneid.html" target="_blank" rel="noopener noreferrer">The Aeneid (The Internet Classics Archive/Virgil, trans. John Dryden)</a> - A free poetic translation of Rome's foundation epic exploring Trojan exile and Augustan destiny; Robert Fagles provides the benchmark modern verse translation.</p>
+<p><a href="https://www.poetryintranslation.com/PITBR/Latin/Metamorph.php" target="_blank" rel="noopener noreferrer">Metamorphoses (Poetry in Translation/Ovid, trans. A. S. Kline)</a> - A free, modern, and hyperlinked line-by-line translation of Ovid's mythic epic recounting mythical transformations from the cosmic creation to Julius Caesar.</p>
+<p><a href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0019:text=Catil." target="_blank" rel="noopener noreferrer">Against Catiline (Perseus Digital Library/Cicero, trans. C. D. Yonge)</a> - Free complete English translations of the four famous consular speeches exposing the Catilinarian conspiracy; Michael Grant's Penguin edition offers a broader selection of political speeches.</p>
+<p><a href="http://classics.mit.edu/Tacitus/annals.html" target="_blank" rel="noopener noreferrer">The Annals (The Internet Classics Archive/Tacitus, trans. Alfred John Church and William Jackson Brodribb)</a> - A free unabridged translation of the foremost Roman historical critique of the Julio-Claudian emperors; J. C. Yardley's Oxford edition provides modern textual notes.</p>
+<h2 id="classical-archaeology-and-material-culture">Classical Archaeology and Material Culture</h2>
+<p>An exploration of the architecture, sculpture, ceramics, and physical topography of the ancient Mediterranean basin.</p>
+<p><a href="https://oyc.yale.edu/history-of-art/hsar-252" target="_blank" rel="noopener noreferrer">Roman Architecture (Open Yale Courses/Diana E. E. Kleiner)</a> - A 24-lecture university course examining Roman urban design, concrete vaulting, public monuments, and provincial infrastructure.</p>
+<p><a href="https://www.coursera.org/learn/roman-art-archaeology" target="_blank" rel="noopener noreferrer">Roman Art and Archaeology (Coursera/University of Arizona/David Soren)</a> - A structured online course surveying the physical remains, pottery, domestic spaces, and excavation methods of ancient Italy.</p>
+<p><a href="https://books.google.com/books?isbn=9780801482809" target="_blank" rel="noopener noreferrer">The Archaeology of Greece: An Introduction (William R. Biers)</a> - A foundational guide introducing the ceramics, temple orders, and sculptural phases of Greece from the Bronze Age through the Hellenistic era.</p>
+<p><a href="https://books.google.com/books?isbn=9781606061015" target="_blank" rel="noopener noreferrer">Roman Art (Paul Zanker)</a> - A concise, contextual analysis of Roman historical reliefs, private portraits, and visual propaganda in civic spaces.</p>
+<h2 id="latin-language">Latin Language</h2>
+<p>Sequential instruction in Classical Latin grammar, syntax, morphology, and unadapted literary translation.</p>
+<p><a href="https://books.google.com/books?isbn=9788790696122" target="_blank" rel="noopener noreferrer">Lingua Latina per se Illustrata: Pars I: Familia Romana (Hans H. Ørberg)</a> - An inductive reading method teaching Latin grammar and vocabulary directly through contextual Latin narrative prose without English translation.</p>
+<p><a href="https://books.google.com/books?isbn=9781585100675" target="_blank" rel="noopener noreferrer">Lingua Latina per se Illustrata: Pars II: Roma Aeterna (Hans H. Ørberg)</a> - The intermediate sequel to Familia Romana, advancing syntactical fluency through continuous readings adapted directly from Roman historians.</p>
+<p><a href="https://books.google.com/books?isbn=9780061997228" target="_blank" rel="noopener noreferrer">Wheelock's Latin (Frederic M. Wheelock and Richard A. LaFleur)</a> - The classic systematic grammar-translation textbook featuring clear paradigm charts, linguistic explanations, translation exercises, and adapted readings.</p>
+<p><a href="https://www.youtube.com/@ScorpioMartianus" target="_blank" rel="noopener noreferrer">Latin Pronunciation and Spoken Latin Tutorials (YouTube/Luke Ranieri/ScorpioMartianus)</a> - Free video lessons detailing Classical Latin phonology, vowel quantity, macrons, and spoken conversational phrasing.</p>
+<p><a href="https://geoffreysteadman.com/" target="_blank" rel="noopener noreferrer">College Latin Commentaries (Geoffrey Steadman)</a> - Free downloadable intermediate guided readers containing unadapted texts from Caesar, Cicero, and Catullus with facing-page vocabulary and grammatical commentary.</p>
+<h2 id="ancient-greek-language">Ancient Greek Language</h2>
+<p>Sequential instruction in Attic Greek alphabetics, morphology, syntax, and progressive textual reading.</p>
+<p><a href="https://books.google.com/books?isbn=9780190607661" target="_blank" rel="noopener noreferrer">Athenaze: An Introduction to Ancient Greek (Maurice Balme, Gilbert Lawall, and James Morwood)</a> - A popular narrative-driven reading textbook that builds Attic Greek vocabulary and syntactic concepts through connected prose stories.</p>
+<p><a href="https://books.google.com/books?isbn=9780520275713" target="_blank" rel="noopener noreferrer">Introduction to Attic Greek (Donald J. Mastronarde)</a> - A rigorous grammar-translation textbook providing exhaustive paradigms, morphology rules, and unadapted classical prose passages.</p>
+<p><a href="https://atticgreek.org/" target="_blank" rel="noopener noreferrer">Ancient Greek Tutorials (AtticGreek.org/Donald J. Mastronarde)</a> - Free interactive exercises providing audio pronunciation guides, accent drills, and morphology self-tests keyed to introductory Attic Greek.</p>
+<p><a href="https://geoffreysteadman.com/" target="_blank" rel="noopener noreferrer">College Greek Commentaries (Geoffrey Steadman)</a> - Free downloadable student readers providing unadapted Attic texts by Plato, Lysias, and Xenophon with facing-page vocabulary and syntactical explanations.</p>
+    </article>
+  </main>
 
 </body>
 </html>

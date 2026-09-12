@@ -1,218 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Advanced Topics</title>
-<link rel="stylesheet" href="/classics/style.css">
-<meta name="description" content="">
+  <title>Advanced Topics</title>
+  <meta name="description" content="A lightweight static page by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/classics/">
+  <link rel="canonical" href="https://hocbigg.github.io/classics/advanced_topics.html">
+  <meta property="og:title" content="Advanced Topics">
+  <meta property="og:description" content="A lightweight static page by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/classics/advanced_topics.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Advanced Topics">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/classics/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: min(60rem, 92vw);
+  padding: 0 0.75rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  color: var(--fg);
+}
+h1 { font-size: 1.85rem; margin-top: 0.5em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/classics/">Classics</a>
-<a href="/classics/advanced_topics.html">Advanced Topics</a>
-<a href="/classics/projects.html">Projects</a>
-<a href="/classics/extras/courses.html">Extra Courses</a>
-<a href="/classics/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/classics/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/classics/">Classics</a></li>
+      <li><a href="/classics/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/classics/projects.html">Projects</a></li>
+      <li><a href="/classics/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/classics/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/classics/resources.html">Resources</a></li>
+      <li><a href="/classics/extras/other_curricula.html">Other Curricula</a></li>
+      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
 
 <h1 id="advanced-topics">Advanced Topics</h1>
 <ul>
-<li><a href="#religion-myth-and-society">Religion, Myth, and Society</a></li>
-<li><a href="#philosophy--science">Philosophy &amp; Science</a></li>
-<li><a href="#material-culture--evidence">Material Culture &amp; Evidence</a></li>
-<li><a href="#methods-of-classical-scholarship">Methods of Classical Scholarship</a></li>
-<li><a href="#late-antiquity--transformation">Late Antiquity &amp; Transformation</a></li>
-<li><a href="#reception-of-classics">Reception of Classics</a></li>
-<li><a href="#final-projects">Final Projects</a></li>
+<li><a href="#classical-philology-palaeography--textual-criticism">Classical Philology, Palaeography &amp; Textual Criticism</a>: Investigates how ancient texts were copied, corrupted, edited, and reconstructed from manuscript traditions, papyrological remains, and ancient scholia.</li>
+<li><a href="#ancient-philosophy-science--intellectual-history">Ancient Philosophy, Science &amp; Intellectual History</a>: Explores Greco-Roman metaphysics, epistemology, ethics, natural philosophy, and medicine from the Presocratics through Hellenistic and Imperial philosophy.</li>
+<li><a href="#classical-archaeology-epigraphy--material-culture">Classical Archaeology, Epigraphy &amp; Material Culture</a>: Analyzes non-literary evidence through landscape field survey, urban domestic space, ancient numismatics, and stone inscriptions.</li>
+<li><a href="#late-antiquity--byzantine-transitions">Late Antiquity &amp; Byzantine Transitions</a>: Traces the political, religious, and institutional evolution of the Mediterranean from the Third Century Crisis through early Byzantium.</li>
+<li><a href="#classical-reception-cultural-politics--gender-studies">Classical Reception, Cultural Politics &amp; Gender Studies</a>: Analyzes how classical antiquity has been interpreted, reimagined, ideologically deployed, and critically interrogated regarding gender, sexuality, and imperial hegemony.</li>
+<li><a href="#digital-classics--computational-humanities">Digital Classics &amp; Computational Humanities</a>: Trains learners in computational linguistics, natural language processing, semantic markup, and geospatial technologies applied to ancient sources.</li>
 </ul>
-<p>The remaining sections are deeper or more specialized. You do not need to study all of them. Pick according to your interests after you have finished (or are very far along in) the Core:</p>
-<ul>
-<li>V. Religion, Myth, and Society: Good if you are drawn to ancient beliefs, rituals, social structures, or gender roles.</li>
-<li>VI. Philosophy &amp; Science: Choose this track if you are especially interested in ancient thought, logic, ethics, or the history of science/medicine.</li>
-<li>VII. Material Culture &amp; Evidence: Ideal if you love archaeology, art, architecture, visual culture, or physical evidence (coins, inscriptions, ruins).</li>
-<li>VIII. Methods of Classical Scholarship: For those who want to understand how classicists read, edit, and interpret texts at a professional level.</li>
-<li>IX. Late Antiquity &amp; Transformation: If you are curious about the transition from classical antiquity to the early medieval/Christian world.</li>
-<li>X. Reception of Classics: Perfect if you enjoy seeing how ancient ideas, stories, and images have been reused in later literature, art, film, and modern culture.</li>
-</ul>
-<h2 id="religion-myth-and-society">Religion, Myth, and Society</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Greek &amp; Roman Religion</td>
-<td>Oxford Handbook of Greek Religion</td>
-</tr>
-<tr>
-<td>Mythology</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/earlygreekmythgu0001gant">Gantz, <em>Early Greek Myth</em></a></td>
-</tr>
-<tr>
-<td>Daily Life &amp; Slavery</td>
-<td>Pomeroy - Goddesses, Whores, Wives and Slaves</td>
-</tr>
-</tbody>
-</table>
-<h2 id="philosophy-science">Philosophy &amp; Science</h2>
-<table>
-<thead>
-<tr>
-<th>Area</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Presocratics → Plato</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/search?query=plato+complete+works+cooper">Plato, Cooper edition</a> (search for "Plato: Complete Works" edited by John M. Cooper)</td>
-</tr>
-<tr>
-<td>Aristotle</td>
-<td>Aristotle, Barnes Companion (see "The Cambridge Companion to Aristotle" via open previews or search Archive.org)</td>
-</tr>
-<tr>
-<td>Hellenistic Schools</td>
-<td>Long, <em>Hellenistic Philosophy</em></td>
-</tr>
-<tr>
-<td>Medicine &amp; Science</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/search?query=loeb+hippocrates+OR+galen">Hippocrates &amp; Galen (Loeb, Archive.org)</a> (Loeb volumes)</td>
-</tr>
-</tbody>
-</table>
-<h2 id="material-culture-evidence">Material Culture &amp; Evidence</h2>
-<table>
-<thead>
-<tr>
-<th>Area</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Archaeology</td>
-<td>Biers, <em>Archaeology of Greece</em></td>
-</tr>
-<tr>
-<td>Art &amp; Architecture</td>
-<td></td>
-</tr>
-<tr>
-<td>Coins &amp; Inscriptions</td>
-<td>Sandys, <em>Latin Epigraphy</em> (search Archive.org for open editions)</td>
-</tr>
-</tbody>
-</table>
-<h2 id="methods-of-classical-scholarship">Methods of Classical Scholarship</h2>
-<table>
-<thead>
-<tr>
-<th>Area</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Textual criticism</td>
-<td>West, <em>Textual Criticism and Editorial Technique</em> (search academic previews or Archive.org)</td>
-</tr>
-<tr>
-<td>Manuscripts &amp; transmission</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/search?query=scribes+and+scholars">Reynolds &amp; Wilson, <em>Scribes and Scholars</em></a></td>
-</tr>
-<tr>
-<td>Philology</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://global.oup.com/academic/product/ancient-greek-scholarship-9780199286157?cc=us&amp;lang=en&amp;">Dickey, <em>Ancient Greek Scholarship</em> (open PDF)</a> (preview; full via institutional access)</td>
-</tr>
-</tbody>
-</table>
-<h2 id="late-antiquity-transformation">Late Antiquity &amp; Transformation</h2>
-<table>
-<thead>
-<tr>
-<th>Area</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Christianity &amp; Empire</td>
-<td>Cameron, <em>Mediterranean World in Late Antiquity</em></td>
-</tr>
-<tr>
-<td>Augustine</td>
-<td><em>Confessions</em> (Perseus or <a target="_blank" rel="noopener noreferrer" href="http://www.newadvent.org/fathers/1101.htm">http://www.newadvent.org/fathers/1101.htm</a>)</td>
-</tr>
-<tr>
-<td>Neoplatonism</td>
-<td>Plotinus (Perseus or open translations on Archive.org)</td>
-</tr>
-</tbody>
-</table>
-<h2 id="reception-of-classics">Reception of Classics</h2>
-<table>
-<thead>
-<tr>
-<th>Area</th>
-<th>Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Classical reception</td>
-<td>Hardwick &amp; Stray, <em>Companion to Classical Receptions</em> (search Oxford Academic previews)</td>
-</tr>
-</tbody>
-</table>
-<h2 id="final-projects">Final Projects</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why study?</th>
-<th>Book</th>
-<th>Videos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Capstone Project</td>
-<td>Produce a research thesis, annotated translation, or multimedia project using primary sources and scholarly methods.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/chicagomanualofs16edunse"><em>The Chicago Manual of Style</em></a> (for formatting); <a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Women-Late-Antiquity-Pagan-Christian/dp/0198721668"><em>Writing for Classicists</em></a> by Gillian Clark</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://ocw.mit.edu/courses/history/">Research Methods in Classics (MIT OCW)</a> (use general humanities research guides)</td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<p>Note: Free primary texts are available via:
-- <a target="_blank" rel="noopener noreferrer" href="http://www.perseus.tufts.edu/hopper/">Perseus Digital Library</a>
-- <a target="_blank" rel="noopener noreferrer" href="https://opengreekandlatin.org/">Open Greek &amp; Latin Project</a></p>
-</blockquote>
-</article>
-</main>
+<h2 id="classical-philology-palaeography-textual-criticism">Classical Philology, Palaeography &amp; Textual Criticism</h2>
+<p>Investigates how ancient texts were copied, corrupted, edited, and reconstructed from manuscript traditions, papyrological remains, and ancient scholia.</p>
+<p>History of Textual Transmission: <a href="https://books.google.com/books?isbn=9780199686339" target="_blank" rel="noopener noreferrer">Scribes and Scholars: A Guide to the Transmission of Greek and Latin Literature (L. D. Reynolds and N. G. Wilson)</a> - Traces the physical and cultural transmission of ancient Greek and Latin literature from classical antiquity through the Byzantine and Western Middle Ages to the Renaissance.</p>
+<p>Textual Criticism &amp; Editorial Technique: <a href="https://books.google.com/books?isbn=9783598774010" target="_blank" rel="noopener noreferrer">Textual Criticism and Editorial Technique Applicable to Greek and Latin Texts (Martin L. West)</a> - The definitive methodological manual on constructing stemmata codicum, identifying scribal errors, and evaluating conjectural emendations.</p>
+<p>Latin Palaeography &amp; Manuscript Studies: <a href="https://books.google.com/books?isbn=9780521367264" target="_blank" rel="noopener noreferrer">Latin Palaeography: Antiquity and the Middle Ages (Bernhard Bischoff)</a> - The canonical handbook on Latin script classifications, codicology, and scribal abbreviation systems from the Roman Empire onward.</p>
+<p>Latin Palaeography &amp; Manuscript Studies: <a href="https://www.nationalarchives.gov.uk/help-with-your-research/reading-old-documents/" target="_blank" rel="noopener noreferrer">Reading Old Documents: Latin Palaeography (The National Archives)</a> - A free interactive tutorial providing practical transcription exercises, letterform charts, and abbreviation decoding on archival Latin manuscripts.</p>
+<p>Documentary &amp; Literary Papyrology: <a href="https://books.google.com/books?isbn=9780199843695" target="_blank" rel="noopener noreferrer">The Oxford Handbook of Papyrology (Roger S. Bagnall, ed.)</a> - A comprehensive guide to deciphering, conserving, and interpreting Greek and Latin documentary records and literary fragments from Greco-Roman Egypt.</p>
+<p>Ancient Scholarship &amp; Commentary Traditions: <a href="https://books.google.com/books?isbn=9780195312935" target="_blank" rel="noopener noreferrer">Ancient Greek Scholarship (Eleanor Dickey)</a> - A practical, step-by-step guide to reading, navigating, and translating ancient and Byzantine marginal scholia, lexica, and grammatical treatises.</p>
+<h2 id="ancient-philosophy-science-intellectual-history">Ancient Philosophy, Science &amp; Intellectual History</h2>
+<p>Explores Greco-Roman metaphysics, epistemology, ethics, natural philosophy, and medicine from the Presocratics through Hellenistic and Imperial philosophy.</p>
+<p>Presocratic and Platonic Philosophy: <a href="https://www.coursera.org/learn/plato" target="_blank" rel="noopener noreferrer">Ancient Philosophy: Plato and His Predecessors (Coursera/University of Pennsylvania/Susan Sauvé Meyer)</a> - A structured online course covering the Milesian naturalists, Parmenidean ontology, and Plato's epistemology, virtue ethics, and theory of Forms.</p>
+<p>Presocratic and Platonic Philosophy: <a href="https://books.google.com/books?isbn=9780521274555" target="_blank" rel="noopener noreferrer">The Presocratic Philosophers: A Critical History with a Selection of Texts (G. S. Kirk, J. E. Raven, and M. Schofield)</a> - The benchmark critical edition and commentary analyzing surviving philosophical fragments and early Greek cosmologies from Thales through the atomists.</p>
+<p>Aristotelian and Hellenistic Philosophy: <a href="https://www.coursera.org/learn/aristotle" target="_blank" rel="noopener noreferrer">Ancient Philosophy: Aristotle and His Successors (Coursera/University of Pennsylvania/Susan Sauvé Meyer)</a> - An advanced university course unpacking Aristotle's Categories, natural teleology, and virtue ethics alongside Epicurean and Stoic philosophical systems.</p>
+<p>Aristotelian and Hellenistic Philosophy: <a href="https://books.google.com/books?isbn=9780521275569" target="_blank" rel="noopener noreferrer">The Hellenistic Philosophers: Volume 1, Translations of the Principal Sources with Philosophical Commentary (A. A. Long and D. N. Sedley)</a> - The primary scholarly sourcebook providing English translations and analytical commentary arranged systematically by Hellenistic philosophical doctrine.</p>
+<p>Ancient Medicine and Humoral Physiology: <a href="https://books.google.com/books?isbn=9780415520942" target="_blank" rel="noopener noreferrer">Ancient Medicine (Vivian Nutton)</a> - The standard comprehensive history of clinical practice, anatomical dissection, pharmacology, and humoral theory from the Hippocratic corpus to Galen.</p>
+<h2 id="classical-archaeology-epigraphy-material-culture">Classical Archaeology, Epigraphy &amp; Material Culture</h2>
+<p>Analyzes non-literary evidence through landscape field survey, urban domestic space, ancient numismatics, and stone inscriptions.</p>
+<p>Mediterranean Landscape Archaeology: <a href="https://books.google.com/books?isbn=9781842170960" target="_blank" rel="noopener noreferrer">Side-by-Side Survey: Comparative Regional Studies in the Mediterranean World (Susan E. Alcock and John F. Cherry, eds.)</a> - An advanced methodological volume examining surface artifact scatters, regional demographic modeling, and field survey comparison across the Mediterranean.</p>
+<p>Roman Urban Topography and Field Stratigraphy: <a href="https://www.coursera.org/learn/palatine-hill-archaeology-history" target="_blank" rel="noopener noreferrer">The Changing Landscape of Ancient Rome: Archaeology and History of the Palatine Hill (Coursera/Sapienza University of Rome/Paolo Carafa)</a> - A university video course covering urban archaeological investigation, stratigraphic analysis, and architectural reconstruction using Rome's Palatine Hill as a primary case study.</p>
+<p>Roman Domestic Space and Spatial Syntax: <a href="https://books.google.com/books?isbn=9780691029092" target="_blank" rel="noopener noreferrer">Houses and Society in Pompeii and Herculaneum (Andrew Wallace-Hadrill)</a> - A landmark study examining how architectural spatial syntax, wall decoration, and domestic layout negotiated Roman social status, patronage, and privacy.</p>
+<p>Greek and Roman Numismatics: <a href="https://books.google.com/books?isbn=9780415089937" target="_blank" rel="noopener noreferrer">Ancient History from Coins (Christopher Howgego)</a> - A foundational guide to using coin hoards, minting patterns, and iconography to reconstruct state finance, monetization, and imperial propaganda.</p>
+<p>Epigraphic Methodology and Inscriptional Evidence: <a href="https://books.google.com/books?isbn=9780521549547" target="_blank" rel="noopener noreferrer">The Cambridge Manual of Latin Epigraphy (Alison E. Cooley)</a> - An exhaustive technical handbook on epigraphic abbreviations, monument classifications, dating formulas, and the civic function of public writing.</p>
+<h2 id="late-antiquity-byzantine-transitions">Late Antiquity &amp; Byzantine Transitions</h2>
+<p>Traces the political, religious, and institutional evolution of the Mediterranean from the Third Century Crisis through early Byzantium.</p>
+<p>Transformation of the Roman Mediterranean: <a href="https://oyc.yale.edu/history/hist-210" target="_blank" rel="noopener noreferrer">The Early Middle Ages, 284–1000 (Open Yale Courses/Paul Freedman)</a> - A complete 22-lecture university course detailing the Diocletianic reforms, Christianization, barbarian kingdoms, Justinianic reconquest, and Byzantine survival.</p>
+<p>Transformation of the Roman Mediterranean: <a href="https://books.google.com/books?isbn=9780500297483" target="_blank" rel="noopener noreferrer">The World of Late Antiquity: AD 150–750 (Peter Brown)</a> - The landmark monograph establishing Late Antiquity as an era of vibrant religious innovation and cultural reconfiguration rather than catastrophic decline.</p>
+<p>Patristic Literature and Philosophical Autobiography: <a href="https://faculty.georgetown.edu/jod/conf/" target="_blank" rel="noopener noreferrer">The Confessions of Augustine: Electronic Edition and Commentary (James J. O'Donnell)</a> - An exhaustive, open-access digital philological commentary on Augustine's psychological, rhetorical, and theological masterwork.</p>
+<p>Neoplatonism and Late Pagan Metaphysics: <a href="https://books.google.com/books?isbn=9780521476768" target="_blank" rel="noopener noreferrer">The Cambridge Companion to Plotinus (Lloyd P. Gerson, ed.)</a> - An advanced analysis of Plotinian hypostases, the contemplative ascent of the soul, and the philosophical synthesis of late antique Platonism.</p>
+<p>Imperial Continuity and the Eastern Roman State: <a href="https://books.google.com/books?isbn=9780674365407" target="_blank" rel="noopener noreferrer">The Byzantine Republic: People and Power in New Rome (Anthony Kaldellis)</a> - Reconstructs the civic republican ideology, public consensus mechanisms, and popular sovereignty that persisted in medieval Roman Constantinople.</p>
+<h2 id="classical-reception-cultural-politics-gender-studies">Classical Reception, Cultural Politics &amp; Gender Studies</h2>
+<p>Analyzes how classical antiquity has been interpreted, reimagined, ideologically deployed, and critically interrogated regarding gender, sexuality, and imperial hegemony.</p>
+<p>Hermeneutics and Reception Theory: <a href="https://books.google.com/books?isbn=9780521427197" target="_blank" rel="noopener noreferrer">Redeeming the Text: Latin Poetry and the Hermeneutics of Reception (Charles Martindale)</a> - Demonstrates that the meaning of ancient literature is inextricably shaped by history, post-antique translations, and shifting interpretive horizons.</p>
+<p>Performance Reception and Ancient Drama: <a href="https://www.apgrd.ox.ac.uk/" target="_blank" rel="noopener noreferrer">Archive of Performances of Greek and Roman Drama (University of Oxford/APGRD)</a> - An open-access multimedia research hub and lecture archive documenting modern theatrical, operatic, and cinematic stagings of Greek and Roman drama.</p>
+<p>Gender, Sexuality, and Ancient Bodily Norms: <a href="https://books.google.com/books?isbn=9781444349863" target="_blank" rel="noopener noreferrer">Sexuality in Greek and Roman Culture (Marilyn B. Skinner)</a> - An advanced social history examining Greek pederasty, Roman citizen norms, female subcultures, and ancient constructions of gendered embodiment.</p>
+<p>Ethnicity, Race, and Ancient Imperialism: <a href="https://books.google.com/books?isbn=9781350125001" target="_blank" rel="noopener noreferrer">Race: Antiquity and Its Legacy (Denise Eileen McCoskey)</a> - A critical study contrasting ancient environmental and cultural theories of difference with modern racial discourses and classical appropriations.</p>
+<p>History of Classical Scholarship and Imperial Education: <a href="https://books.google.com/books?isbn=9780198150138" target="_blank" rel="noopener noreferrer">Classics Transformed: Schools, Universities, and Society in England, 1830–1960 (Christopher Stray)</a> - Traces the sociological evolution of classical philology into an elite educational apparatus linked to social class and British imperial administration.</p>
+<h2 id="digital-classics-computational-humanities">Digital Classics &amp; Computational Humanities</h2>
+<p>Trains learners in computational linguistics, natural language processing, semantic markup, and geospatial technologies applied to ancient sources.</p>
+<p>Digital Text Encoding and Epigraphic Markup: <a href="https://sunoikisisdc.github.io/" target="_blank" rel="noopener noreferrer">Sunoikisis Digital Classics (SunoikisisDC Consortium)</a> - An open-access international training program offering video seminars, syllabi, and hands-on exercises in EpiDoc TEI XML, treebanking, and digital philology.</p>
+<p>Natural Language Processing for Historical Languages: <a href="https://docs.cltk.org/" target="_blank" rel="noopener noreferrer">The Classical Language Toolkit (CLTK Documentation)</a> - An open-source Python library and documentation providing specialized NLP pipelines for lemmatization, part-of-speech tagging, and text analysis across ancient languages.</p>
+<p>Spatial Humanities and Archaeological GIS: <a href="https://books.google.com/books?isbn=9780521797443" target="_blank" rel="noopener noreferrer">Geographical Information Systems in Archaeology (James Conolly and Mark Lake)</a> - A foundational guide to applying spatial analysis, digital elevation modeling, and landscape GIS methodologies to ancient Mediterranean archaeological contexts.</p>
+<p>Methodological Foundations of Digital Classics: <a href="https://books.google.com/books?isbn=9780197835210" target="_blank" rel="noopener noreferrer">The Oxford Handbook of Digital Classical Studies (Elton Barker, Olympia Bobou, and Rubina Raja, eds.)</a> - An authoritative survey exploring digital scholarship across classical archaeology, computational linguistics, 3D modeling, and linked open data.</p>
+    </article>
+  </main>
 
 </body>
 </html>

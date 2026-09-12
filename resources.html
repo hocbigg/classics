@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+
+  <title>Resources</title>
+  <meta name="description" content="A lightweight static page by hocbigg.">
+  <meta name="author" content="hocbigg">
+
+  <link rel="canonical" href="https://hocbigg.github.io/classics/resources.html">
+  <meta property="og:title" content="Resources">
+  <meta property="og:description" content="A lightweight static page by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/classics/resources.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+
+  <style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: min(60rem, 92vw);
+  padding: 0 0.75rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  color: var(--fg);
+}
+h1 { font-size: 1.85rem; margin-top: 0.5em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/classics/">Classics</a></li>
+      <li><a href="/classics/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/classics/projects.html">Projects</a></li>
+      <li><a href="/classics/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/classics/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/classics/resources.html">Resources</a></li>
+      <li><a href="/classics/extras/other_curricula.html">Other Curricula</a></li>
+      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
+
+<h1 id="resources">Resources</h1>
+<h2 id="primary-text-corpora-digital-readers">Primary Text Corpora &amp; Digital Readers</h2>
+<p>Searchable digital collections and online reading environments for ancient Greek and Latin literature.</p>
+<ul>
+<li><a href="https://www.perseus.tufts.edu/hopper/" target="_blank" rel="noopener noreferrer">Perseus Digital Library (Tufts University)</a> - The landmark open-access digital repository of Greco-Roman primary literature, featuring linked morphological parsing, critical apparatuses, and facing translations.</li>
+<li><a href="https://latin.packhum.org/" target="_blank" rel="noopener noreferrer">PHI Latin Texts (Packard Humanities Institute)</a> - A fast, comprehensive concordance and search corpus containing virtually all surviving classical Latin literature written before 200 CE.</li>
+<li><a href="https://scaife.perseus.org/" target="_blank" rel="noopener noreferrer">The Scaife Viewer (Perseus Digital Library)</a> - A modernized, modular reading environment designed for reading and comparing ancient Greek and Latin texts with standardized CTS passage citation.</li>
+<li><a href="https://www.thelatinlibrary.com/" target="_blank" rel="noopener noreferrer">The Latin Library</a> - A clean, unencumbered collection of unannotated Latin texts spanning classical antiquity, the Middle Ages, and the neo-Latin era.</li>
+<li><a href="https://homer.uchicago.edu/" target="_blank" rel="noopener noreferrer">The Chicago Homer (University of Chicago)</a> - A searchable, multilingual reading database dedicated to early Greek epic (Homer and Hesiod) that tracks formulaic repetitions and syntactic structures.</li>
+</ul>
+<h2 id="lexicons-dictionaries-morphological-analyzers">Lexicons, Dictionaries &amp; Morphological Analyzers</h2>
+<p>Digital lookup tools, inflection engines, and customizable vocabulary builders for classical Greek and Latin.</p>
+<ul>
+<li><a href="https://logeion.uchicago.edu/" target="_blank" rel="noopener noreferrer">Logeion (University of Chicago)</a> - A centralized dictionary search engine that simultaneously queries Liddell-Scott-Jones (LSJ), Lewis &amp; Short, Middle Liddell, and the Diccionario Griego-Español alongside morphological parsing.</li>
+<li><a href="https://bridge.haverford.edu/" target="_blank" rel="noopener noreferrer">The Bridge (Haverford College)</a> - A customizable vocabulary list generator that filters and exports targeted Greek and Latin frequency lists based on specific authors, texts, or textbook mastery.</li>
+<li><a href="https://dcc.dickinson.edu/" target="_blank" rel="noopener noreferrer">Dickinson College Commentaries (Dickinson College)</a> - An open hub featuring vetted core vocabulary frequency lists (the 1,000 most common Latin words and 500 most common Greek words) essential for building sight-reading speed.</li>
+<li><a href="http://archives.nd.edu/words.html" target="_blank" rel="noopener noreferrer">William Whitaker's Words (University of Notre Dame Archives)</a> - A rapid, rule-based morphological analyzer and dictionary that identifies obscure inflected forms, enclitics, prefixes, and stems in Latin.</li>
+</ul>
+<h2 id="epigraphy-papyrology-inscriptional-databases">Epigraphy, Papyrology &amp; Inscriptional Databases</h2>
+<p>Searchable corpora of documentary evidence preserved on papyrus, stone, bronze, and wooden writing tablets.</p>
+<ul>
+<li><a href="https://papyri.info/" target="_blank" rel="noopener noreferrer">Papyri.info (Duke University Libraries)</a> - The primary open-access portal for documentary papyrology, integrating the Duke Databank of Documentary Papyri, the Heidelberger Gesamtverzeichnis, and museum inventory records.</li>
+<li><a href="https://epigraphy.packhum.org/" target="_blank" rel="noopener noreferrer">Searchable Greek Inscriptions (Packard Humanities Institute)</a> - The largest searchable open repository of ancient Greek inscriptions, containing over 210,000 published texts catalogued by geographic region and standard epigraphic corpus.</li>
+<li><a href="https://db.edcs.eu/epigr/epi.php" target="_blank" rel="noopener noreferrer">Epigraphik-Datenbank Clauss / Slaby (EDCS)</a> - An exhaustive database indexing over 500,000 Latin and bilingual inscriptions from across the Roman world with publication citations and epigraphic abbreviations.</li>
+<li><a href="https://romaninscriptionsofbritain.org/" target="_blank" rel="noopener noreferrer">Roman Inscriptions of Britain (RIB Online)</a> - A fully searchable, open digital edition of monumental stone inscriptions and ink writing tablets (including the Vindolanda Tablets) discovered in Roman Britain.</li>
+</ul>
+<h2 id="historical-geography-maps-spatial-modeling">Historical Geography, Maps &amp; Spatial Modeling</h2>
+<p>Interactive gazetteers, topographical atlases, and spatial simulation engines for the ancient Mediterranean.</p>
+<ul>
+<li><a href="https://pleiades.stoa.org/" target="_blank" rel="noopener noreferrer">Pleiades (Stoa Consortium / NYU ISAW)</a> - The authoritative linked open data gazetteer of the ancient world, supplying persistent URIs, historical names, and coordinates for thousands of ancient locations.</li>
+<li><a href="https://topostext.org/" target="_blank" rel="noopener noreferrer">ToposText (Aikaterini Laskaridis Foundation)</a> - An interactive map and gazetteer that connects over 8,000 ancient Mediterranean locations and archaeological ruins directly to excerpts from ancient literature mentioning them.</li>
+<li><a href="https://imperium.ahlfeldt.se/" target="_blank" rel="noopener noreferrer">Digital Atlas of the Roman Empire (Johan Åhlfeldt / University of Gothenburg)</a> - A detailed interactive vector map of the Roman Empire displaying roads, forts, settlements, towns, and provincial boundaries.</li>
+<li><a href="https://orbis.stanford.edu/" target="_blank" rel="noopener noreferrer">ORBIS: The Stanford Geospatial Network Model of the Roman World (Stanford University)</a> - An interactive simulation tool that calculates the financial expense, transit time, and seasonal logistics of traveling across the Roman road and maritime network.</li>
+</ul>
+<h2 id="classical-art-pottery-numismatics">Classical Art, Pottery &amp; Numismatics</h2>
+<p>Visual archives, ceramic typologies, and coin catalogues documenting Greco-Roman material culture.</p>
+<ul>
+<li><a href="https://www.carc.ox.ac.uk/carc/pottery" target="_blank" rel="noopener noreferrer">Beazley Archive Pottery Database (Classical Art Research Centre / University of Oxford)</a> - The world's largest research repository and image database dedicated to ancient Greek painted and figure-decorated pottery.</li>
+<li><a href="https://numismatics.org/ocre/" target="_blank" rel="noopener noreferrer">Online Coins of the Roman Empire (American Numismatic Society)</a> - A comprehensive, linked open data catalogue documenting every imperial Roman coin type from Augustus to Zeno, linked to high-resolution museum specimens.</li>
+<li><a href="https://rpc.ashmus.ox.ac.uk/" target="_blank" rel="noopener noreferrer">Roman Provincial Coinage Online (Ashmolean Museum / University of Oxford)</a> - The definitive digital research catalogue for civic and provincial coin issues produced across the Roman provinces from 44 BCE onward.</li>
+<li><a href="https://nomisma.org/" target="_blank" rel="noopener noreferrer">Nomisma.org (American Numismatic Society)</a> - A collaborative linked open data initiative providing stable digital definitions, ontologies, and identifier URIs for ancient numismatic concepts and mints.</li>
+</ul>
+<h2 id="scholarly-discovery-book-reviews-open-bibliographies">Scholarly Discovery, Book Reviews &amp; Open Bibliographies</h2>
+<p>Open journals and research discovery platforms for navigating classical scholarship without subscription barriers.</p>
+<ul>
+<li><a href="https://bmcr.brynmawr.edu/" target="_blank" rel="noopener noreferrer">Bryn Mawr Classical Review (Bryn Mawr College)</a> - The oldest and most comprehensive open-access, peer-reviewed journal publishing evaluations of new monographs in classical studies, history, and classical archaeology.</li>
+<li><a href="https://ancientworldonline.blogspot.com/" target="_blank" rel="noopener noreferrer">AWOL: The Ancient World Online (Charles E. Jones)</a> - A widely consulted research discovery clearinghouse indexing open-access books, journals, databases, and digital humanities projects across the ancient Mediterranean.</li>
+</ul>
+    </article>
+  </main>
+
+</body>
+</html>
