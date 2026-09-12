@@ -1,7 +1,7 @@
 # Advanced Topics
 
 - [Classical Philology, Palaeography & Textual Criticism](#classical-philology-palaeography--textual-criticism): Investigates how ancient texts were copied, corrupted, edited, and reconstructed from manuscript traditions, papyrological remains, and ancient scholia.
-- [Ancient Philosophy, Science & Intellectual History](#ancient-philosophy-science--intellectual-history): Explores Greco-Roman metaphysics, epistemology, ethics, natural philosophy, and medicine from the Presocratics to late antique Platonism.
+- [Ancient Philosophy, Science & Intellectual History](#ancient-philosophy-science--intellectual-history): Explores Greco-Roman metaphysics, epistemology, ethics, natural philosophy, and medicine from the Presocratics through Hellenistic and Imperial philosophy.
 - [Classical Archaeology, Epigraphy & Material Culture](#classical-archaeology-epigraphy--material-culture): Analyzes non-literary evidence through landscape field survey, urban domestic space, ancient numismatics, and stone inscriptions.
 - [Late Antiquity & Byzantine Transitions](#late-antiquity--byzantine-transitions): Traces the political, religious, and institutional evolution of the Mediterranean from the Third Century Crisis through early Byzantium.
 - [Classical Reception, Cultural Politics & Gender Studies](#classical-reception-cultural-politics--gender-studies): Analyzes how classical antiquity has been interpreted, reimagined, ideologically deployed, and critically interrogated regarding gender, sexuality, and imperial hegemony.
@@ -25,15 +25,15 @@ Ancient Scholarship & Commentary Traditions: [Ancient Greek Scholarship (Eleanor
 
 ## Ancient Philosophy, Science & Intellectual History
 
-Explores Greco-Roman metaphysics, epistemology, ethics, natural philosophy, and medicine from the Presocratics to late antique Platonism.
+Explores Greco-Roman metaphysics, epistemology, ethics, natural philosophy, and medicine from the Presocratics through Hellenistic and Imperial philosophy.
 
-Presocratic Natural Philosophy: [The Presocratic Philosophers: A Critical History with a Selection of Texts (G. S. Kirk, J. E. Raven, and M. Schofield)](https://books.google.com/books?isbn=9780521274555) - The standard critical edition and commentary analyzing surviving philosophical fragments and cosmologies from Thales through the atomists.
+Presocratic and Platonic Philosophy: [Ancient Philosophy: Plato and His Predecessors (Coursera/University of Pennsylvania/Susan Sauvé Meyer)](https://www.coursera.org/learn/plato) - A structured online course covering the Milesian naturalists, Parmenidean ontology, and Plato's epistemology, virtue ethics, and theory of Forms.
 
-Platonic Epistemology & Dialectic: [The Cambridge Companion to Plato (David Ebrey and Richard Kraut, eds.)](https://books.google.com/books?isbn=9781108457262) - An authoritative collection of scholarly studies examining Plato's dialogue form, epistemology, theory of Forms, and dialectical methods.
+Presocratic and Platonic Philosophy: [The Presocratic Philosophers: A Critical History with a Selection of Texts (G. S. Kirk, J. E. Raven, and M. Schofield)](https://books.google.com/books?isbn=9780521274555) - The benchmark critical edition and commentary analyzing surviving philosophical fragments and early Greek cosmologies from Thales through the atomists.
 
-Aristotelian Logic, Metaphysics, and Ethics: [The Cambridge Companion to Aristotle (Jonathan Barnes, ed.)](https://books.google.com/books?isbn=9780521422949) - An in-depth scholarly guide unpacking Aristotle's syllogistic Organon, teleological physics, hylomorphism, and virtue ethics.
+Aristotelian and Hellenistic Philosophy: [Ancient Philosophy: Aristotle and His Successors (Coursera/University of Pennsylvania/Susan Sauvé Meyer)](https://www.coursera.org/learn/aristotle) - An advanced university course unpacking Aristotle's Categories, natural teleology, and virtue ethics alongside Epicurean and Stoic philosophical systems.
 
-Hellenistic Thought (Stoicism, Epicureanism, and Skepticism): [The Hellenistic Philosophers: Volume 1, Translations of the Principal Sources with Philosophical Commentary (A. A. Long and D. N. Sedley)](https://books.google.com/books?isbn=9780521275569) - The canonical sourcebook providing English translations and philosophical commentary arranged systematically by philosophical school and doctrine.
+Aristotelian and Hellenistic Philosophy: [The Hellenistic Philosophers: Volume 1, Translations of the Principal Sources with Philosophical Commentary (A. A. Long and D. N. Sedley)](https://books.google.com/books?isbn=9780521275569) - The primary scholarly sourcebook providing English translations and analytical commentary arranged systematically by Hellenistic philosophical doctrine.
 
 Ancient Medicine and Humoral Physiology: [Ancient Medicine (Vivian Nutton)](https://books.google.com/books?isbn=9780415520942) - The standard comprehensive history of clinical practice, anatomical dissection, pharmacology, and humoral theory from the Hippocratic corpus to Galen.
 
@@ -43,17 +43,21 @@ Analyzes non-literary evidence through landscape field survey, urban domestic sp
 
 Mediterranean Landscape Archaeology: [Side-by-Side Survey: Comparative Regional Studies in the Mediterranean World (Susan E. Alcock and John F. Cherry, eds.)](https://books.google.com/books?isbn=9781842170960) - An advanced methodological volume examining surface artifact scatters, regional demographic modeling, and field survey comparison across the Mediterranean.
 
-Roman Domestic Space & Urban Topography: [Houses and Society in Pompeii and Herculaneum (Andrew Wallace-Hadrill)](https://books.google.com/books?isbn=9780691029092) - A landmark study examining how architectural spatial syntax, wall decoration, and domestic layout negotiated Roman social status, patronage, and privacy.
+Roman Urban Topography and Field Stratigraphy: [The Changing Landscape of Ancient Rome: Archaeology and History of the Palatine Hill (Coursera/Sapienza University of Rome/Paolo Carafa)](https://www.coursera.org/learn/palatine-hill-archaeology-history) - A university video course covering urban archaeological investigation, stratigraphic analysis, and architectural reconstruction using Rome's Palatine Hill as a primary case study.
+
+Roman Domestic Space and Spatial Syntax: [Houses and Society in Pompeii and Herculaneum (Andrew Wallace-Hadrill)](https://books.google.com/books?isbn=9780691029092) - A landmark study examining how architectural spatial syntax, wall decoration, and domestic layout negotiated Roman social status, patronage, and privacy.
 
 Greek and Roman Numismatics: [Ancient History from Coins (Christopher Howgego)](https://books.google.com/books?isbn=9780415089937) - A foundational guide to using coin hoards, minting patterns, and iconography to reconstruct state finance, monetization, and imperial propaganda.
 
-Epigraphic Methodology & Inscriptional Evidence: [The Cambridge Manual of Latin Epigraphy (Alison E. Cooley)](https://books.google.com/books?isbn=9780521549547) - An exhaustive technical handbook on epigraphic abbreviations, monument classifications, dating formulas, and the civic function of public writing.
+Epigraphic Methodology and Inscriptional Evidence: [The Cambridge Manual of Latin Epigraphy (Alison E. Cooley)](https://books.google.com/books?isbn=9780521549547) - An exhaustive technical handbook on epigraphic abbreviations, monument classifications, dating formulas, and the civic function of public writing.
 
 ## Late Antiquity & Byzantine Transitions
 
 Traces the political, religious, and institutional evolution of the Mediterranean from the Third Century Crisis through early Byzantium.
 
-Social and Cultural Transformation of the Mediterranean: [The World of Late Antiquity: AD 150–750 (Peter Brown)](https://books.google.com/books?isbn=9780500297483) - The landmark study establishing Late Antiquity as an era of vibrant religious innovation, shifting frontiers, and cultural reconfiguration rather than mere decline.
+Transformation of the Roman Mediterranean: [The Early Middle Ages, 284–1000 (Open Yale Courses/Paul Freedman)](https://oyc.yale.edu/history/hist-210) - A complete 22-lecture university course detailing the Diocletianic reforms, Christianization, barbarian kingdoms, Justinianic reconquest, and Byzantine survival.
+
+Transformation of the Roman Mediterranean: [The World of Late Antiquity: AD 150–750 (Peter Brown)](https://books.google.com/books?isbn=9780500297483) - The landmark monograph establishing Late Antiquity as an era of vibrant religious innovation and cultural reconfiguration rather than catastrophic decline.
 
 Patristic Literature and Philosophical Autobiography: [The Confessions of Augustine: Electronic Edition and Commentary (James J. O'Donnell)](https://faculty.georgetown.edu/jod/conf/) - An exhaustive, open-access digital philological commentary on Augustine's psychological, rhetorical, and theological masterwork.
 
@@ -66,6 +70,8 @@ Imperial Continuity and the Eastern Roman State: [The Byzantine Republic: People
 Analyzes how classical antiquity has been interpreted, reimagined, ideologically deployed, and critically interrogated regarding gender, sexuality, and imperial hegemony.
 
 Hermeneutics and Reception Theory: [Redeeming the Text: Latin Poetry and the Hermeneutics of Reception (Charles Martindale)](https://books.google.com/books?isbn=9780521427197) - Demonstrates that the meaning of ancient literature is inextricably shaped by history, post-antique translations, and shifting interpretive horizons.
+
+Performance Reception and Ancient Drama: [Archive of Performances of Greek and Roman Drama (University of Oxford/APGRD)](https://www.apgrd.ox.ac.uk/) - An open-access multimedia research hub and lecture archive documenting modern theatrical, operatic, and cinematic stagings of Greek and Roman drama.
 
 Gender, Sexuality, and Ancient Bodily Norms: [Sexuality in Greek and Roman Culture (Marilyn B. Skinner)](https://books.google.com/books?isbn=9781444349863) - An advanced social history examining Greek pederasty, Roman citizen norms, female subcultures, and ancient constructions of gendered embodiment.
 
