@@ -18,6 +18,8 @@
 
   <style>
 :root {
+  color-scheme: light dark;
+
   --bg: #ffffff;
   --fg: #1a1a1a;
   --muted: #595959;
@@ -47,12 +49,14 @@
 
 body {
   margin: 1.5rem auto;
-  max-width: min(60rem, 92vw);
-  padding: 0 0.75rem 3.5rem;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
   background-color: var(--bg);
   color: var(--fg);
   font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  word-wrap: break-word;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
 }
 
 .site-header {
@@ -93,7 +97,7 @@ nav .nav-brand {
 
 .skip-link {
   position: absolute;
-  top: -9999px;
+  transform: translateY(-150%);
   left: 1rem;
   background: var(--fg);
   color: var(--bg);
@@ -102,9 +106,11 @@ nav .nav-brand {
   text-decoration: none;
   font-weight: 600;
   border-radius: 4px;
+  transition: transform 0.2s ease;
 }
+
 .skip-link:focus {
-  top: 1rem;
+  transform: translateY(1rem);
 }
 
 .sr-only {
@@ -114,7 +120,7 @@ nav .nav-brand {
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
   white-space: nowrap;
   border: 0;
 }
@@ -126,13 +132,41 @@ nav .nav-brand {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.3;
-  margin-top: 1.75em;
-  margin-bottom: 0.5em;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   color: var(--fg);
+  font-weight: 600;
 }
-h1 { font-size: 1.85rem; margin-top: 0.5em; }
-h2 { font-size: 1.45rem; }
-h3 { font-size: 1.2rem; }
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
 
 p, ul, ol, blockquote, table {
   margin-top: 0;
@@ -159,13 +193,21 @@ a:hover {
   text-decoration-thickness: 2px;
 }
 
+a:has(img) {
+  text-decoration: none;
+}
+
 .page-header {
   text-align: center;
   margin-bottom: 2rem;
 }
-.page-header img {
+
+img {
   max-width: 100%;
   height: auto;
+}
+
+.page-header img {
   margin: 0 auto 1rem;
   display: block;
 }
@@ -178,6 +220,7 @@ code {
   border-radius: 4px;
   border: 1px solid var(--border);
 }
+
 pre {
   background-color: var(--code-bg);
   border: 1px solid var(--border);
@@ -186,33 +229,39 @@ pre {
   overflow-x: auto;
   tab-size: 2;
 }
+
 pre code {
   background: transparent;
   padding: 0;
   border: none;
   font-size: 0.9rem;
+  border-radius: 0;
 }
 
 .table-wrapper {
   overflow-x: auto;
   margin-bottom: 1.5rem;
 }
+
 table {
   width: 100%;
   border-collapse: collapse;
   text-align: left;
 }
+
 th, td {
   border: 1px solid var(--border);
   padding: 0.6rem 0.75rem;
   vertical-align: top;
 }
+
 th {
   background-color: var(--th-bg);
   font-weight: 600;
 }
 
 blockquote {
+  margin-inline: 0;
   border-left: 4px solid var(--border);
   padding-left: 1rem;
   color: var(--muted);
@@ -221,11 +270,12 @@ blockquote {
 
 @media (prefers-reduced-motion: reduce) {
   * {
-    animation-duration: 0.01ms !important;
-    transition-duration: 0.01ms !important;
+    animation: none !important;
+    transition: none !important;
     scroll-behavior: auto !important;
   }
 }
+
 @media print {
   body {
     max-width: none;
@@ -252,8 +302,7 @@ blockquote {
       <li><a href="/classics/extras/readings.html">Extra Readings</a></li>
       <li><a href="/classics/extras/courses.html">Extra Courses</a></li>
       <li><a href="/classics/resources.html">Resources</a></li>
-      <li><a href="/classics/extras/other_curricula.html">Other Curricula</a></li>
-      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+      <li><a href="https://github.com/hocbigg/classics" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
     </ul>
     </nav>
   </header>
@@ -262,65 +311,88 @@ blockquote {
     <article>
 
 <h1 id="projects">Projects</h1>
-<p>A curated directory of hands-on, step-by-step guides, open templates, and practical workflows for learning Classics through artifact construction and methodological practice.</p>
 <blockquote>
-<p><em>What I cannot create, I do not understand.</em> — Richard Feynman</p>
+<p>"What I cannot create, I do not understand." — Richard Feynman</p>
 </blockquote>
-<h2 id="edit-a-critical-edition-or-digital-text">Edit a Critical Edition or Digital Text</h2>
+<ul>
+<li><a href="#produce-your-own-critical-editions">Produce your own critical editions</a></li>
+<li><a href="#translate-your-own-ancient-texts">Translate your own ancient texts</a></li>
+<li><a href="#write-your-own-classical-commentaries">Write your own classical commentaries</a></li>
+<li><a href="#encode-your-own-epigraphic-inscriptions">Encode your own epigraphic inscriptions</a></li>
+<li><a href="#transcribe-your-own-documentary-papyri">Transcribe your own documentary papyri</a></li>
+<li><a href="#write-your-own-close-reading-analyses">Write your own close reading analyses</a></li>
+<li><a href="#write-your-own-ancient-history-research-papers">Write your own ancient history research papers</a></li>
+<li><a href="#analyze-your-own-classical-archaeological-artifacts">Analyze your own classical archaeological artifacts</a></li>
+<li><a href="#annotate-your-own-syntactic-treebanks">Annotate your own syntactic treebanks</a></li>
+<li><a href="#map-your-own-ancient-geographical-places">Map your own ancient geographical places</a></li>
+<li><a href="#construct-your-own-historical-network-visualizations">Construct your own historical network visualizations</a></li>
+</ul>
+<h2 id="produce-your-own-critical-editions">Produce your own critical editions</h2>
 <ul>
 <li><a href="https://andrewdunning.ca/critical-edition-software" target="_blank" rel="noopener noreferrer">Software for Producing a Critical Edition: Classical Text Editor, LaTeX, and TEI (Andrew Dunning)</a></li>
 <li><a href="https://alexpoulos.com/2014/06/12/cte-tutorial/" target="_blank" rel="noopener noreferrer">CTE Tutorial: Creating a Simple Critical Edition (Alex Poulos)</a></li>
 <li><a href="https://digitallatin.github.io/guidelines/" target="_blank" rel="noopener noreferrer">Guidelines for Encoding Critical Editions for the Library of Digital Latin Texts (Digital Latin Library)</a></li>
 <li><a href="https://ctan.org/pkg/reledmac" target="_blank" rel="noopener noreferrer">Typesetting Scholarly Editions with reledmac (Maïeul Rouquette / CTAN)</a></li>
-<li><a href="https://classics-at.chs.harvard.edu/digital-methods-of-analysing-and-reconstructing-ancient-greek-and-latin-texts/" target="_blank" rel="noopener noreferrer">Digital Methods of Analysing and Reconstructing Ancient Greek and Latin Texts (Anna Novokhatko and Felix K. Maier / Classics@ / Center for Hellenic Studies)</a></li>
-<li><a href="http://www.driscoll.dk/docs/words.html" target="_blank" rel="noopener noreferrer">The Words on the Page: Thoughts on Philology, Old and New (M. J. Driscoll)</a></li>
+<li><a href="https://classics-at.chs.harvard.edu/digital-methods-of-analysing-and-reconstructing-ancient-greek-and-latin-texts/" target="_blank" rel="noopener noreferrer">Digital Methods of Analysing and Reconstructing Ancient Greek and Latin Texts (Anna Novokhatko and Felix K. Maier / Center for Hellenic Studies)</a></li>
 </ul>
-<h2 id="translate-an-ancient-greek-or-latin-text">Translate an Ancient Greek or Latin Text</h2>
+<h2 id="translate-your-own-ancient-texts">Translate your own ancient texts</h2>
 <ul>
 <li><a href="https://camws.org/cpl/cplonline/files/Hoyoscplonline.pdf" target="_blank" rel="noopener noreferrer">Translating: Facts, Illusions, Alternatives (Dexter Hoyos / CAMWS)</a></li>
+<li><a href="https://books.google.com/books?isbn=9780865163966" target="_blank" rel="noopener noreferrer">Latin: How to Read It Fluently: A Practical Manual (Dexter Hoyos / Bolchazy-Carducci)</a> [Paid]</li>
 <li><a href="https://books.google.com/books?isbn=9781032227030" target="_blank" rel="noopener noreferrer">Writing a Translation Commentary (Penélope Johnson / Routledge)</a> [Paid]</li>
-<li><a href="https://www.youtube.com/watch?v=A_i3iy8v5Dg" target="_blank" rel="noopener noreferrer">A Straightforward Guide to Translating Latin Unseens (Darren Tan / YouTube)</a></li>
-<li><a href="https://www.apgrd.ox.ac.uk/learning/an-introduction-to/translation" target="_blank" rel="noopener noreferrer">Translating Ancient Drama: An Introduction to Translation (Cécile Dudouyt / APGRD, University of Oxford)</a></li>
+<li><a href="https://www.apgrd.ox.ac.uk/learning/an-introduction-to/translation" target="_blank" rel="noopener noreferrer">An Introduction to Translation (Cécile Dudouyt / APGRD, University of Oxford)</a></li>
 </ul>
-<h2 id="write-a-classical-commentary">Write a Classical Commentary</h2>
+<h2 id="write-your-own-classical-commentaries">Write your own classical commentaries</h2>
 <ul>
 <li><a href="https://blogs.dickinson.edu/dcc/2013/01/21/classical-commentary-diy/" target="_blank" rel="noopener noreferrer">Classical Commentary DIY: Creating Graded Student Commentaries (Peter Sipes / Dickinson College Commentaries)</a></li>
 <li><a href="https://classicswrites.hsites.harvard.edu/sections-commentary" target="_blank" rel="noopener noreferrer">Sections of a Commentary (ClassicsWrites / Harvard University)</a></li>
 <li><a href="https://warwick.ac.uk/fac/arts/modernlanguages/intranet/undergraduate/skills/commesswriting/commentarywriting" target="_blank" rel="noopener noreferrer">Writing a Literary Commentary: Guidelines (University of Warwick)</a></li>
 </ul>
-<h2 id="transcribe-and-encode-an-inscription-or-papyrus">Transcribe and Encode an Inscription or Papyrus</h2>
+<h2 id="encode-your-own-epigraphic-inscriptions">Encode your own epigraphic inscriptions</h2>
 <ul>
 <li><a href="https://epidoc.stoa.org/gl/latest/" target="_blank" rel="noopener noreferrer">EpiDoc: Epigraphic Documents in TEI XML Guidelines (EpiDoc Collaborative)</a></li>
 <li><a href="https://github.com/EpiDoc/Tutorials" target="_blank" rel="noopener noreferrer">Online Syllabus and Video Tutorials for EpiDoc Training (GitHub / EpiDoc)</a></li>
-<li><a href="https://papyri.info/docs/leiden_plus" target="_blank" rel="noopener noreferrer">Text Leiden+ Documentation: Guidelines for Encoding Ancient Papyri (Papyri.info)</a></li>
 <li><a href="https://formaurbis.stanford.edu/docs/EpigraphConvent.html" target="_blank" rel="noopener noreferrer">Epigraphic Conventions Used in Transcriptions and Reconstructions (Stanford Digital Forma Urbis Romae Project)</a></li>
 <li><a href="https://www.roger-pearse.com/weblog/2014/04/25/greek-and-latin-epigraphy-an-absolute-beginners-guide/" target="_blank" rel="noopener noreferrer">Greek and Latin Epigraphy: An Absolute Beginners' Guide (Onno van Nijf / Roger Pearse)</a></li>
 </ul>
-<h2 id="write-a-close-reading-analysis">Write a Close Reading Analysis</h2>
+<h2 id="transcribe-your-own-documentary-papyri">Transcribe your own documentary papyri</h2>
+<ul>
+<li><a href="https://papyri.info/docs/leiden_plus" target="_blank" rel="noopener noreferrer">Text Leiden+ Documentation: Guidelines for Encoding Ancient Papyri (Papyri.info)</a></li>
+<li><a href="https://encode-guidelines.github.io/guidelines/leiden+.html" target="_blank" rel="noopener noreferrer">Best Practices: Leiden+ (ENCODE Guidelines)</a></li>
+</ul>
+<h2 id="write-your-own-close-reading-analyses">Write your own close reading analyses</h2>
 <ul>
 <li><a href="https://classicswrites.hsites.harvard.edu/close-reading" target="_blank" rel="noopener noreferrer">Close Reading as Analysis (ClassicsWrites / Harvard University)</a></li>
 <li><a href="https://writingcenter.fas.harvard.edu/pages/how-do-close-reading" target="_blank" rel="noopener noreferrer">How to Do a Close Reading (Patricia Kain / Harvard College Writing Center)</a></li>
 <li><a href="https://classicswrites.hsites.harvard.edu/thesis-statements" target="_blank" rel="noopener noreferrer">Thesis Statements and Argument Development in Classics (ClassicsWrites / Harvard University)</a></li>
 </ul>
-<h2 id="write-an-ancient-history-research-paper">Write an Ancient History Research Paper</h2>
+<h2 id="write-your-own-ancient-history-research-papers">Write your own ancient history research papers</h2>
 <ul>
 <li><a href="https://www.usu.edu/markdamen/WritingGuide/00intro.htm" target="_blank" rel="noopener noreferrer">A Guide to Writing in History and Classics (Mark Damen / Utah State University)</a></li>
 <li><a href="https://hwpi.harvard.edu/files/hwp/files/bg_writing_history.pdf" target="_blank" rel="noopener noreferrer">A Brief Guide to Writing the History Paper (Harvard College Writing Center)</a></li>
 <li><a href="https://books.google.com/books?isbn=9780801486333" target="_blank" rel="noopener noreferrer">Writing Ancient History (Neville Morley / Cornell University Press)</a> [Paid]</li>
-<li><a href="https://classicswrites.hsites.harvard.edu/object-analysis" target="_blank" rel="noopener noreferrer">Object and Art Analysis in Classics (ClassicsWrites / Harvard University)</a></li>
 </ul>
-<h2 id="annotate-a-syntactic-treebank">Annotate a Syntactic Treebank</h2>
+<h2 id="analyze-your-own-classical-archaeological-artifacts">Analyze your own classical archaeological artifacts</h2>
+<ul>
+<li><a href="https://classicswrites.hsites.harvard.edu/object-analysis" target="_blank" rel="noopener noreferrer">Object and Art Analysis in Classics (ClassicsWrites / Harvard University)</a></li>
+<li><a href="https://classicswrites.hsites.harvard.edu/tombstone-information" target="_blank" rel="noopener noreferrer">Tombstone Information and Archaeological Cataloging (ClassicsWrites / Harvard University)</a></li>
+</ul>
+<h2 id="annotate-your-own-syntactic-treebanks">Annotate your own syntactic treebanks</h2>
 <ul>
 <li><a href="https://digitalinitiatives.commons.gc.cuny.edu/2015/10/08/treebanking-with-arethusa/" target="_blank" rel="noopener noreferrer">Treebanking with Arethusa (Jeremy March / Digital Initiatives at the Graduate Center, CUNY)</a></li>
 <li><a href="https://github.com/perseusdl/treebank_data" target="_blank" rel="noopener noreferrer">Ancient Greek and Latin Dependency Treebank Guidelines (Perseus Project / GitHub)</a></li>
 <li><a href="https://github.com/SunoikisisDC/SunoikisisDC-2022-2023/wiki/Learning-Greek-and-Latin-with-Treebanks" target="_blank" rel="noopener noreferrer">Learning Greek and Latin with Treebanks (Vanessa Gorman and Matthew Harrington / SunoikisisDC)</a></li>
 </ul>
-<h2 id="map-historical-places-and-spatial-networks">Map Historical Places and Spatial Networks</h2>
+<h2 id="map-your-own-ancient-geographical-places">Map your own ancient geographical places</h2>
 <ul>
 <li><a href="https://recogito.pelagios.org/help/tutorial" target="_blank" rel="noopener noreferrer">10 Minute Tutorial: Geotagging and Mapping Texts with Recogito (Pelagios Network)</a></li>
 <li><a href="https://github.com/pelagios/pelagios.github.io/wiki" target="_blank" rel="noopener noreferrer">Recogito Documentation and Video Tutorials Wiki (Pelagios Network / GitHub)</a></li>
-<li><a href="https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources" target="_blank" rel="noopener noreferrer">From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources (Marten Düring / The Programming Historian)</a></li>
 <li><a href="https://pleiades.stoa.org/help/conceptual-overview" target="_blank" rel="noopener noreferrer">Conceptual Overview of the Pleiades Spatial Data Model (Sean Gillies et al. / Pleiades)</a></li>
+</ul>
+<h2 id="construct-your-own-historical-network-visualizations">Construct your own historical network visualizations</h2>
+<ul>
+<li><a href="https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources" target="_blank" rel="noopener noreferrer">From Hermeneutics to Data to Networks: Data Extraction and Network Visualization of Historical Sources (Marten Düring / The Programming Historian)</a></li>
+<li><a href="https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python" target="_blank" rel="noopener noreferrer">Exploring and Analyzing Network Data with Python (John R. Ladd et al. / The Programming Historian)</a></li>
 </ul>
     </article>
   </main>
