@@ -1,5 +1,7 @@
 # Advanced Topics
 
+Learners are encouraged to select one or two tracks aligned with their interests rather than attempting to complete all tracks.
+
 - [Classical Philology, Palaeography & Textual Criticism](#classical-philology-palaeography--textual-criticism): Investigates how ancient texts were copied, corrupted, edited, and reconstructed from manuscript traditions, papyrological remains, and ancient scholia.
 - [Ancient Philosophy, Science & Intellectual History](#ancient-philosophy-science--intellectual-history): Explores Greco-Roman metaphysics, epistemology, ethics, natural philosophy, and medicine from the Presocratics through Hellenistic and Imperial philosophy.
 - [Classical Archaeology, Epigraphy & Material Culture](#classical-archaeology-epigraphy--material-culture): Analyzes non-literary evidence through landscape field survey, urban domestic space, ancient numismatics, and stone inscriptions.

@@ -5,9 +5,24 @@ description: Path to a free self-taught education in Classics!
 
 ## Introduction
 
-The Classics curriculum is a complete education in Classics using online materials. This curriculum aims to cover the history, literature, languages, and culture of ancient Greece and Rome.
+Classics is the interdisciplinary study of the ancient Mediterranean world, focused on the civilizations of ancient Greece and Rome from the Bronze Age through the Classical and Hellenistic periods, the Roman Republic and Principate, and Late Antiquity. Rather than isolating history, literature, art, or philosophy into separate silos, the discipline examines how political institutions, literary genres, religious rituals, visual culture, and everyday material objects interacted to define ancient society.
 
-## Communities
+This curriculum is structured for self-directed learners starting from scratch. No prior background in ancient history, literary analysis, or foreign languages is required. Every concept, historical development, and literary work in the introductory and contextual subjects is studied through clear, modern English scholarship and accessible translations. The only requirement is a willingness to engage critically with unfamiliar cultural assumptions and commit to the steady, incremental practice required for ancient language acquisition.
+
+### How to Navigate the Curriculum
+
+The curriculum encompasses nine core subjects that bridge historical context, literature in translation, material evidence, and original philology. Because self-directed study does not require rigid institutional scheduling, you can approach these subjects through two interwoven tracks:
+
+- **The Historical and Cultural Track:** Start with *Introduction to Classical Studies* to understand how scholars evaluate primary sources, fragmentary texts, and material culture. Next, work through *Ancient Greek History*, *Roman History*, and *Classical Mythology and Religion*. These subjects provide the chronological, political, and cosmological foundations necessary to make sense of *Ancient Greek Literature*, *Latin Literature*, and *Classical Archaeology and Material Culture*.
+- **The Language Track:** *Latin Language* and *Ancient Greek Language* represent cumulative, skill-based studies that benefit from short, daily sessions rather than intense cramming. You do not need to postpone reading history, archaeology, or translated literature until you master the languages. Instead, begin your historical and literary reading immediately while running one language track in parallel. Because learning an inflected language requires significant memorization and syntax practice, focus on one ancient language first—typically Latin, due to its familiar alphabet and regular paradigms, unless your focus is exclusively Hellenic—before beginning the other.
+
+### Scope
+
+This curriculum focuses strictly on the foundational core: the overarching historical trajectories, primary literary masterpieces, ritual realities, material typologies, and elementary-to-intermediate grammars that any undergraduate major in Classics is expected to know. 
+
+It deliberately excludes narrow technical subfields such as epigraphy (inscriptions on stone and metal), papyrology, numismatics (ancient coinage), comparative Indo-European linguistics, and advanced textual criticism. Once you complete this foundational core, you will have the context and linguistic tools necessary to explore those specialized areas in [Advanced Topics](advanced_topics.md), undertake unadapted author seminars in the [Readings section](extras/readings.md), or pursue [targeted translation and research projects](projects.md).
+
+### Communities
 
 - Forums:
     - [Textkit Forums](https://www.textkit.com/greek-latin-forum/)
