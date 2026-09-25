@@ -2,12 +2,12 @@
 
 Learners are encouraged to select one or two tracks aligned with their interests rather than attempting to complete all tracks.
 
-- [Classical Philology, Palaeography & Textual Criticism](#classical-philology-palaeography--textual-criticism): Investigates how ancient texts were copied, corrupted, edited, and reconstructed from manuscript traditions, papyrological remains, and ancient scholia.
-- [Ancient Philosophy, Science & Intellectual History](#ancient-philosophy-science--intellectual-history): Explores Greco-Roman metaphysics, epistemology, ethics, natural philosophy, and medicine from the Presocratics through Hellenistic and Imperial philosophy.
-- [Classical Archaeology, Epigraphy & Material Culture](#classical-archaeology-epigraphy--material-culture): Analyzes non-literary evidence through landscape field survey, urban domestic space, ancient numismatics, and stone inscriptions.
-- [Late Antiquity & Byzantine Transitions](#late-antiquity--byzantine-transitions): Traces the political, religious, and institutional evolution of the Mediterranean from the Third Century Crisis through early Byzantium.
-- [Classical Reception, Cultural Politics & Gender Studies](#classical-reception-cultural-politics--gender-studies): Analyzes how classical antiquity has been interpreted, reimagined, ideologically deployed, and critically interrogated regarding gender, sexuality, and imperial hegemony.
-- [Digital Classics & Computational Humanities](#digital-classics--computational-humanities): Trains learners in computational linguistics, natural language processing, semantic markup, and geospatial technologies applied to ancient sources.
+- [Classical Philology, Palaeography & Textual Criticism](#classical-philology-palaeography-textual-criticism): Investigates how ancient texts were copied, corrupted, edited, and reconstructed from manuscript traditions, papyrological remains, and ancient scholia.
+- [Ancient Philosophy, Science & Intellectual History](#ancient-philosophy-science-intellectual-history): Explores Greco-Roman metaphysics, epistemology, ethics, natural philosophy, and medicine from the Presocratics through Hellenistic and Imperial philosophy.
+- [Classical Archaeology, Epigraphy & Material Culture](#classical-archaeology-epigraphy-material-culture): Analyzes non-literary evidence through landscape field survey, urban domestic space, ancient numismatics, and stone inscriptions.
+- [Late Antiquity & Byzantine Transitions](#late-antiquity-byzantine-transitions): Traces the political, religious, and institutional evolution of the Mediterranean from the Third Century Crisis through early Byzantium.
+- [Classical Reception, Cultural Politics & Gender Studies](#classical-reception-cultural-politics-gender-studies): Analyzes how classical antiquity has been interpreted, reimagined, ideologically deployed, and critically interrogated regarding gender, sexuality, and imperial hegemony.
+- [Digital Classics & Computational Humanities](#digital-classics-computational-humanities): Trains learners in computational linguistics, natural language processing, semantic markup, and geospatial technologies applied to ancient sources.
 
 ## Classical Philology, Palaeography & Textual Criticism
 
